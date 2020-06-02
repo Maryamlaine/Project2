@@ -1,0 +1,670 @@
+airport_id,airport_code,airport_name,address,city,state,longitude,latitude
+10135,ABE, Lehigh Valley International,3311 Airport Rd,Allentown,PA,-75.4404,40.65236
+10136,ABI, Abilene Regional,2933 Airport Blvd,Abilene,TX,-99.6819,32.41132
+10139,ABL, Ambler River,,Ambler,AK,-157.85747,67.10631
+10140,ABQ, Albuquerque International Sunport,2200 Sunport Blvd SE,Albuquerque,NM,-106.60919,35.04022
+10141,ABR, Aberdeen Regional,123 S Lincoln St,Aberdeen,SD,-98.42183,45.44906
+10146,ABY, Southwest Georgia Regional,3905 Newton Rd,Albany,GA,-84.19447,31.53552
+10154,ACK, Nantucket Memorial,14 Airport Rd,Nantucket,MA,-70.06018,41.25305
+10155,ACT, Waco Regional,7909 Karl May Dr,Waco,TX,-97.23052,31.61129
+10157,ACV, California Redwood Coast Humboldt County,3561 Boeing Ave,McKinleyville,CA,-124.10862,40.97812
+10158,ACY, Atlantic City International,Atlantic City International Airport,Atlantic City (Egg Harbor Twp),NJ,-74.57717,39.45758
+10165,ADK, Adak,,Adak Island,AK,-176.64603,51.87796
+10184,AET, Allakaket Airport,,Allakaket,AK,-152.62216,66.55182
+10185,AEX, Alexandria International,1611 Arnold Dr,Alexandria,LA,-92.54856,31.32737
+10204,AGN, Angoon Seaplane Base,,Angoon,AK,-134.58509,57.50356
+10208,AGS, Augusta Regional at Bush Field,1501 Aviation Way,Augusta,GA,-81.9645,33.36994
+10216,AHN, Athens/Ben Epps,1010 Ben Epps Dr,Athens,GA,-83.32635,33.9486
+10221,AIA, Alliance Municipal,5631 Sarpy Rd,Alliance,NE,-102.80377,42.05323
+10225,AIN, Wainwright Airport,,Wainwright,AK,-159.99475,70.638
+10237,AKB, Atka Airport,,Atka,AK,-174.20635,52.22035
+10241,AKI, Akiak Airport,,Akiak,AK,-161.23058,60.90289
+10243,AKK, Akhiok Airport,1500 Anton Larson Rd,Akhihok,AK,-154.18256,56.93869
+10245,AKN, King Salmon Airport,Mile 1 Alaska Peninsula Hwy,King Salmon,AK,-156.64922,58.6768
+10247,AKP, Anaktuvuk Pass Airport,,Anaktuvuk Pass,AK,-151.74334,68.1336
+10257,ALB, Albany International,737 Albany Shaker Rd,Albany,NY,-73.80298,42.74812
+10266,ALM, Alamogordo White Sands Regional,3500 Airport Rd,Alamogordo,NM,-105.99058,32.83994
+10268,ALO, Waterloo Regional,2790 Livingston Ln,Waterloo,IA,-92.40034,42.55708
+10272,ALS, San Luis Valley Regional/Bergman Field,9168 County Rd 110 S,Alamosa,CO,-105.86656,37.43492
+10275,ALW, Walla Walla Regional,45 Terminal Loop Rd,Walla Walla,WA,-118.28804,46.09456
+10279,AMA, Rick Husband Amarillo International,10801 Airport Blvd,Amarillo,TX,-101.70593,35.21937
+10299,ANC, Ted Stevens Anchorage International,5000 Old International Airport Rd,Anchorage,AK,-149.99636,61.17436
+10304,ANI, Aniak Airport,,Aniak,AK,-159.54304,61.5816
+10322,AOO, Altoona-Blair County,2 Airport Dr,Altoona (Martinsburg),PA,-78.32002,40.29637
+10324,AOS, Amook Bay Airport,,Amook Bay,AK,-153.81536,57.47149
+10333,APN, Alpena County Regional,1617 Airport Rd,Alpena,MI,-83.56029,45.07807
+10361,ART, Watertown International,22529 Airport Dr,Watertown (Dexter),NY,-76.02174,43.99192
+10363,ARV, Lakeland/Noble F. Lee Memorial Field,,Arctic Village,AK,-145.57611,68.11608
+10372,ASE, Aspen Pitkin County Sardy Field,0223 E Airport Rd,Aspen,CO,-106.86886,39.22317
+10396,ATK, Atqasuk Edward Burnell Sr. Memorial,,Atqasuk,AK,-157.43574,70.46728
+10397,ATL, Hartsfield-Jackson Atlanta International,6000 N Terminal Pkwy,Atlanta,GA,-84.42694,33.64044
+10405,ATT, Atmautluak Airport,,Atmautluak,AK,-162.27314,60.86675
+10408,ATW, Appleton International,W6390 Challenger Dr,Appleton,WI,-88.51948,44.25741
+10409,ATY, Watertown Regional,2416 Boeing Ave,Watertown,SD,-97.15472,44.91398
+10414,AUG, Augusta State,75 Airport Rd,Augusta,ME,-69.79732,44.32065
+10416,AUK, Alakanuk Airport,,Alakanuk,AK,-164.65993,62.68004
+10423,AUS, Austin - Bergstrom International,3600 Presidential,Austin,TX,-97.66989,30.19453
+10431,AVL, Asheville Regional,61 Terminal Dr,Asheville (Fletcher),NC,-82.54181,35.43619
+10434,AVP, Wilkes Barre Scranton International,100 Terminal Dr,Wilkes Barre/Scranton (Avoca),PA,-75.7234,41.33848
+10469,AZO, Kalamazoo/Battle Creek International,5235 Portage Rd,Kalamazoo,MI,-85.55206,42.23488
+10529,BDL, Bradley International,Schoephoester Rd,Windsor Locks,CT,-72.68322,41.93889
+10540,BED, Laurence G Hanscom Field,200 Hanscom Dr,Bedford,MA,-71.28903,42.46995
+10551,BET, Bethel Airport,3521 State Hwy,Bethel,AK,-161.838,60.77978
+10557,BFD, Bradford Regional,212 Airport Dr,Bradford (Lewis Run),PA,-78.64012,41.80307
+10558,BFF, Western Neb. Regional/William B. Heilig Field,250023 Airport Terminal St,Scottsbluff,NE,-103.59564,41.87403
+10559,BFI, Boeing Field/King County International,7277 Perimeter Rd,Seattle,WA,-122.30196,47.52999
+10561,BFL, Meadows Field,3701 Wings Way,Bakersfield,CA,-119.05677,35.4336
+10577,BGM, Greater Binghamton/Edwin A. Link Field,2534 Airport Rd,Binghamton (Johnson City),NY,-75.97961,42.20847
+10581,BGR, Bangor International,287 Godfrey Blvd,Bangor,ME,-68.82814,44.80744
+10589,BHB, Hancock County-Bar Harbor,143 Caruso Dr,Trenton,ME,-68.3615,44.44969
+10590,IFP, Laughlin/Bullhead International,2550 Laughlin View Dr,Bullhead City,AZ,-114.55953,35.15739
+10599,BHM, Birmingham-Shuttlesworth International,5900 Airport Hwy,Birmingham,AL,-86.75355,33.56294
+10612,BIC, Big Creek Airport,,Big Creek,AK,-157.58333,57.66667
+10613,BID, Block Island State,1 Center Rd,Block Island,RI,-71.57784,41.16812
+10616,BIG, Allen AAF,,Delta Junction,AK,-145.72164,63.99455
+10620,BIL, Billings Logan International,1901 Terminal Circle,Billings,MT,-108.54286,45.80766
+10627,BIS, Bismarck Municipal,2301 University Dr,Bismarck,ND,-100.74574,46.77273
+10631,BJI, Bemidji Regional,4015 Moberg Dr,Bemidji,MN,-94.93372,47.50942
+10640,BKC, Buckland Airport,,Buckland,AK,-161.14907,65.98157
+10654,BKW, Raleigh County Memorial,176 Airport Rd,Beckley (Beaver),WV,-81.12416,37.78733
+10655,BKX, Brookings Regional,311 3rd Ave,Brookings,SD,-96.81694,44.30483
+10663,BLF, Mercer County,Airport Rd,Bluefield,WV,-81.20769,37.2958
+10666,BLI, Bellingham International,4225 Mitchell Way,Bellingham,WA,-122.53753,48.79275
+10676,BLV, Scott AFB/MidAmerica,9768 Airport Blvd,Belleville (Mascoutah),IL,-89.83518,38.54518
+10685,BMI, Central Il Regional Airport at Bloomington,3201 Cira Dr,Bloomington/Normal,IL,-88.91595,40.47799
+10693,BNA, Nashville International,1 Terminal Dr,Nashville,TN,-86.67818,36.12448
+10713,BOI, Boise Air Terminal,3201 Airport Way,Boise,ID,-116.22286,43.56436
+10721,BOS, Logan International,1 Harborside Dr,Boston,MA,-71.00519,42.36436
+10728,BPT, Jack Brooks Regional,4875 Parker Dr,Beaumont,TX,-94.02069,29.95083
+10731,BQK, Brunswick Golden Isles,500 Connolle St,Brunswick,GA,-81.46631,31.25903
+10739,BRD, Brainerd Lakes Regional,16384 Airport Rd,Brainerd,MN,-94.13723,46.39786
+10744,BRL, Southeast Iowa Regional,2515 Summer St,Burlington,IA,-91.12551,40.78323
+10747,BRO, Brownsville South Padre Island International,700 S Minnesota Ave,Brownsville,TX,-97.42586,25.90683
+10754,BRW, Wiley Post/Will Rogers Memorial,1741 Ahkovak St,Barrow,AK,-156.766,71.28545
+10770,BSZ, Bartletts Airport,,Egegik,AK,-157.35239,58.21621
+10775,BTI, Barter Island Airport,,Barter Island LRRS,AK,-143.57704,70.1339
+10779,BTM, Bert Mooney,101 Airport Rd,Butte,MT,-112.49747,45.95481
+10781,BTR, Baton Rouge Metropolitan/Ryan Field,9430 Jackie Cochran Dr,Baton Rouge,LA,-91.14963,30.53316
+10783,BTT, Bettles Airport,,Bettles,AK,-151.52806,66.91529
+10785,BTV, Burlington International,1200 Airport Dr,South Burlington,VT,-73.15328,44.47186
+10792,BUF, Buffalo Niagara International,4200 Genesee St,Buffalo,NY,-78.73217,42.94052
+10800,BUR, Bob Hope,2627 N Hollywood Way,Burbank,CA,-118.35867,34.20067
+10821,BWI, Baltimore/Washington International Thurgood Marshall,Aviation Blvd & Elm Rd,Baltimore,MD,-76.66833,39.17536
+10834,BYA, Boundary Airport,,Boundary,AK,-141.11338,64.0783
+10849,BZN, Bozeman Yellowstone International,850 Gallatin Field Rd,Bozeman,MT,-111.15301,45.7769
+10868,CAE, Columbia Metropolitan,3000 Aviation Way,Columbia (West Columbia),SC,-81.11954,33.93884
+10874,CAK, Akron-Canton Regional,5400 Lauby Rd & NW,Akron,OH,-81.44247,40.91631
+10917,CDB, Cold Bay Airport,,Cold Bay,AK,-162.72426,55.2056
+10918,CDC, Cedar City Regional,2281 W Kittyhawk,Cedar City,UT,-113.09885,37.70097
+10925,CDR, Chadron Municipal,100 Airport Rd,Chadron,NE,-103.09542,42.83756
+10926,CDV, Merle K Mudhole Smith,13 Mile Copper River Hwy,Cordova,AK,-145.47765,60.49183
+10930,CEC, Jack McNamara Field,Airport Rd,Crescent City,CA,-124.23653,41.78016
+10938,CEM, Central Airport,,Central,AK,-144.78329,65.57381
+10950,CEZ, Cortez Municipal,22874 County Rd F,Cortez,CO,-108.62806,37.30303
+10951,CFA, Coffee Point Airport,,Coffee Point,AK,-157.5,58.23056
+10961,CGA, Craig Seaplane Base,,Craig,AK,-133.1478,55.47883
+10967,CGI, Cape Girardeau Regional,Airport Rd,Cape Girardeau,MO,-89.57075,37.22532
+10980,CHA, Lovell Field,1001 Airport Rd,Chattanooga,TN,-85.20379,35.03527
+10990,CHO, Charlottesville Albemarle,100 Bowen Loop,Charlottesville,VA,-78.45286,38.13864
+10994,CHS, Charleston AFB/International,5500 Intl Blvd,Charleston,SC,-80.04053,32.89864
+10996,CHU, Chuathbaluk Airport,,Chuathbaluk,AK,-159.23583,61.58416
+11003,CID, The Eastern Iowa,2121 Arthur Collins Pkwy,Cedar Rapids,IA,-91.71087,41.88459
+11007,CIK, Chalkyitsik Airport,,Chalkyitsik,AK,-143.73993,66.64502
+11013,CIU, Chippewa County International,5109 W Airport Dr,Sault Ste Marie (Kincheloe),MI,-84.47239,46.25075
+11027,CKB, North Central West Virginia,2000 Aviation Way,Clarksburg (Bridgeport),WV,-80.22808,39.29664
+11028,CKD, Crooked Creek Airport,,Crooked Creek,AK,-158.13492,61.86786
+11036,CKX, Chicken Airport,,Chicken,AK,-141.95228,64.07134
+11041,CLD, McClellan-Palomar,2192 Palomar Airport Rd,Carlsbad,CA,-117.28008,33.12825
+11042,CLE, Cleveland-Hopkins International,5300 Riverside Dr,Cleveland,OH,-81.84979,41.41169
+11049,CLL, Easterwood Field,1 McKenzie Terminal Blvd,College Station,TX,-96.36382,30.58859
+11050,CLM, William R. Fairchild International,830 W Lauridsen Blvd,Port Angeles,WA,-123.49969,48.12019
+11053,CLP, Clarks Point Airport,,Clarks Point,AK,-158.54523,58.8423
+11057,CLT, Charlotte Douglas International,5501 Josh Birmingham Pkwy,Charlotte,NC,-80.94313,35.21401
+11066,CMH, John Glenn Columbus International,4600 International Gateway,Columbus,OH,-82.89188,39.99799
+11067,CMI, University of Illinois/Willard,One Aiport Rd,Chapaign/Urbana (Savoy),IL,-88.27806,40.03925
+11076,CMX, Houghton County Memorial,23810 Airpark Blvd,Hancock (Calumet),MI,-88.48906,47.16842
+11085,CNM, Cavern City Air Terminal,1505 Terminal Dr,Carlsbad,NM,-104.26328,32.33747
+11092,CNY, Canyonlands Field,Hwy 191 North,Moab,UT,-109.75484,38.75496
+11097,COD, Yellowstone Regional,3001 Duggleby Dr,Cody,WY,-109.02381,44.52019
+11109,COS, City of Colorado Springs Municipal,7770 Milton E Proby Pkwy,Colorado Springs,CO,-104.70025,38.80581
+11111,COU, Columbia Regional,11300 S Airport Dr,Columbia,MO,-92.21963,38.81809
+11122,CPR, Casper/Natrona County International,8500 Airport Pkwy,Casper,WY,-106.4644,42.90797
+11140,CRP, Corpus Christi International,1000 International Dr,Corpus Christi,TX,-97.50122,27.77036
+11146,CRW, Yeager,100 Airport Rd,Charleston,WV,-81.59319,38.37315
+11150,CSG, Columbus Airport,3250 W Britt David Rd,Columbus,GA,-84.93886,32.51633
+11193,CVG, Cincinnati/Northern Kentucky International,2939 Termiinal Dr,Covington/Cincinnati (Hebron),KY,-84.66217,39.04614
+11197,CVN, Clovis Municipal,427 CR 125,Clovis (Texico),NM,-103.07928,34.42514
+11203,CWA, Central Wisconsin,200 CWA Dr,Mosinee,WI,-89.66678,44.77762
+11227,CYF, Chefornak Airport,,Chefornak,AK,-164.28563,60.14923
+11233,CYS, Cheyenne Regional/Jerry Olson Field,200 E 8th Ave,Cheyenne,WY,-104.81184,41.15572
+11245,CZN, Chisana Airport,,Chisana,AK,-142.04837,62.07119
+11247,CZP, Cape Pole Airport,,Cape Pole,AK,-133.79672,55.96629
+11252,DAB, Daytona Beach International,720 Catalina Dr,Daytona Beach,FL,-81.05806,29.17992
+11259,DAL, Dallas Love Field,8008 Cedar Springs Rd,Dallas,TX,-96.85177,32.84711
+11267,DAY, James M Cox/Dayton International, 3600 Terminal Dr,Dayton,OH,-84.21938,39.90238
+11274,DBQ, Dubuque Regional,11000 Airport Rd,Dubuque,IA,-90.70949,42.40199
+11278,DCA, Ronald Reagan Washington National,Washington Ronald Reagan National Airport,Arlington,VA,-77.03772,38.85208
+11283,DDC, Dodge City Regional,100 Airport Rd,Dodge City,KS,-99.96561,37.76345
+11288,DEC, Decatur Airport,910 S Airport Rd,Decatur,IL,-88.86569,39.83456
+11292,DEN, Denver International,8500 Pena Blvd,Denver,CO,-104.667,39.85841
+11298,DFW, Dallas/Fort Worth International,3200 E Airfield Dr,Dallas-Fort Worth,TX,-97.03756,32.8964
+11308,DHN, Dothan Regional,800 Airport Dr,Dothan,AL,-85.44963,31.32134
+11315,DIK, Dickinson - Theodore Roosevelt Regional,11120 42nd St SW,Dickinson,ND,-102.80195,46.79739
+11317,DIO, Diomede Heliport,,Diomede Island,AK,-168.95306,65.75861
+11327,DJN, Delta Junction Airport,,Delta Junction,AK,-145.71733,64.05044
+11336,DLG, Dillingham Airport,803 Aiport Rd,Dillingham,AK,-158.50334,59.04541
+11337,DLH, Duluth International,4701 Grinden Ave,Duluth,MN,-92.19365,46.84209
+11411,DRG, Deering Airport,,Deering,AK,-162.76637,66.06956
+11413,DRO, Durango La Plata County,1000 Airport Rd,Durango,CO,-107.75377,37.15152
+11415,DRT, Del Rio International,1104 W 10th St,Del Rio,TX,-100.92585,29.37283
+11423,DSM, Des Moines International,5800 Fleur Dr,Des Moines,IA,-93.6626,41.53414
+11433,DTW, Detroit Metro Wayne County,9000 Middlebelt Rd,Detroit(Romulus),MI,-83.35339,42.21243
+11441,DUJ, DuBois Regional,5290 Airport Rd,Du Bois (Reynoldsville),PA,-78.8987,41.17827
+11445,DUT, Unalaska Airport,,Unalaska,AK,-166.5435,53.90014
+11447,DVL, Devils Lake Regional,2501 Hwy 19 West,Devils Lake,ND,-98.90878,48.11425
+11463,EAA, Eagle Airport,,Eagle,AK,-141.15092,64.77639
+11468,EAR, Kearney Regional,5145 Airport Rd,Kearney,NE,-99.00678,40.72703
+11470,EAT, Pangborn Memorial,1 Pangborn Way,Wenatchee,WA,-120.20683,47.39886
+11471,EAU, Chippewa Valley Regional,3800 Starr Ave,Eau Claire,WI,-91.48507,44.86526
+11484,EDA, Edna Bay Airport,,Edna Bay,AK,-133.66667,55.95
+11492,EEK, Eek Airport,,Eek,AK,-162.00561,60.2159
+11503,EGE, Eagle County Regional,0871 Cooley Mesa Rd,Eagle (Gypsum),CO,-106.9177,39.64257
+11511,EGX, Egegik Airport,,Egegik,AK,-157.37551,58.18558
+11512,EHM, Cape Newenham LRRS,,Cape Newenham,AK,-162.06278,58.64643
+11525,EKO, Elko Regional,975 Terminal Way,Elko,NV,-115.7917,40.82493
+11531,ELD, South Arkansas Regional at Goodwin Field,418 Airport Dr,El Dorado,AR,-92.81325,33.22086
+11535,ELI, Elim Airport,,Elim,AK,-162.27164,64.61469
+11537,ELM, Elmira/Corning Regional,276 Sing Sing Rd,Elmira/Corning (Horseheads),NY,-76.89144,42.15991
+11540,ELP, El Paso International,6701 Convair Dr,El Paso,TX,-106.37781,31.80667
+11545,ELV, Elfin Cove Seaplane Base,,Elfin Cove,AK,-136.34739,58.19518
+11547,ELY, Ely Airport/Yelland Field,Airport Rd,Ely,NV,-114.84189,39.29969
+11550,EMK, Emmonak Airport,,Emmonak,AK,-164.49105,62.78519
+11555,ENA, Kenai Municipal,305 N Willow St,Kenai,AK,-151.245,60.57311
+11577,ERI, Erie International/Tom Ridge Field,4411 W 12th St,Erie,PA,-80.17622,42.08202
+11587,ESC, Delta County,3300 Airport Rd,ESCANABA,MI,-87.09373,45.72267
+11588,ESD, Orcas Island,147 Schoen Ln,Eastsound,WA,-122.91046,48.70816
+11603,EUG, Mahlon Sweet Field,28855 Lockheed Dr,Eugene,OR,-123.21869,44.12326
+11612,EVV, Evansville Regional,7801 Bussing Dr,Evansville,IN,-87.53063,38.03799
+11615,EWB, New Bedford Regional,1569 Shawmut Ave,New Bedford,MA,-70.95694,41.67614
+11617,EWN, Coastal Carolina Regional,200 Terminal Dr,New Bern,NC,-77.04294,35.07297
+11618,EWR, Newark Liberty International,Newark Airport,Newark,NJ,-74.19625,40.69674
+11619,EXI, Excursion Inlet Seaplane Base,,Excursion Inlet,AK,-135.44903,58.4205
+11624,EYW, Key West International,3491 S Roosevelt Blvd,Key West,FL,-81.75956,24.55611
+11630,FAI, Fairbanks International,6475 Airport Way,Fairbanks,AK,-147.85627,64.81511
+11637,FAR, Hector International,2801 32nd Av & NW,Fargo,ND,-96.8158,46.92009
+11638,FAT, Fresno Yosemite International,5175 E Clinton Ave,Fresno,CA,-119.71814,36.77619
+11641,FAY, Fayetteville Regional/Grannis Field,400 Airport Rd,Fayetteville,NC,-78.88027,34.99122
+11648,FCA, Glacier Park International,4170 Hwy 2 East,Kalispell,MT,-114.25508,48.31142
+11684,FKL, Venango Regional,1560 Airport Rd,Frankliln,PA,-79.86036,41.37787
+11695,FLG, Flagstaff Pulliam,6200 S Pulliam Dr,Flagstaff,AZ,-111.67122,35.13845
+11697,FLL, Fort Lauderdale-Hollywood International,100 Aviation Blvd,Fort Lauderdale,FL,-80.15275,26.07258
+11699,FLO, Florence Regional,2100 Terminal Dr,Florence,SC,-79.72389,34.18536
+11711,FMN, Four Corners Regional,1300 W Navajo St,Farmingon,NM,-108.22994,36.74125
+11719,FNL, Northern Colorado Regional,4900 Earhart Rd,Loveland,CO,-105.01134,40.45183
+11721,FNT, Bishop International,3425 W Bristol Rd,FLINT,MI,-83.74346,42.9655
+11725,FOD, Fort Dodge Regional,1369 Nelson Ave,Fort Dodge,IA,-94.19255,42.55146
+11726,FOE, Topeka Regional,6700 SW Topeka Blvd,Topeka,KS,-95.66361,38.95094
+11762,FRD, Friday Harbor Airport,800 Franklin Dr,Friday Harbor,WA,-123.02436,48.52197
+11775,FSD, Joe Foss Field,2801 Jaycee Ln,Sioux Falls,SD,-96.7417,43.58135
+11778,FSM, Fort Smith Regional,6700 McKennon Blvd,Fort Smith,AR,-94.36744,35.33658
+11823,FWA, Fort Wayne International,3801 W Ferguson,Fort Wayne,IN,-85.19514,40.97847
+11833,FYU, Fort Yukon Airport,,Fort Yukon,AK,-145.25042,66.57149
+11844,GAL, Edward G. Pitka Sr.,Airport Rd,Galena,AK,-156.93742,64.73618
+11845,GAM, Gambell Airport,,Gambell,AK,-171.73282,63.76677
+11856,GBD, Great Bend Municipal,2520 10th St,Great Bend,KS,-98.85917,38.34442
+11865,GCC, Gillette Campbell County,2000 Airport Rd,Gillette,WY,-105.53936,44.34892
+11867,GCK, Garden City Regional,301 N 8th,Garden City,KS,-100.72441,37.92752
+11869,GCN, Grand Canyon National Park,Highway 64,Grand Canyon,AZ,-112.14696,35.95235
+11879,GDV, Dawson Community,207 W Bell,Glendive,MT,-104.8072,47.13872
+11884,GEG, Spokane International,9000 W Airport Dr,Spokane,WA,-117.53384,47.61986
+11898,GFK, Grand Forks International,2787 Airport Dr,Grand Forks,ND,-97.17611,47.94926
+11905,GGG, East Texas Regional,269 Terminal Circle,Longview,TX,-94.71149,32.38401
+11908,GGW, Wokal Field Glasgow Valley County,100 Airport Rd,Glasgow,MT,-106.61482,48.21246
+11921,GJT, Grand Junction Regional,2828 Walker Field Dr,Grand Junction,CO,-108.52673,39.12241
+11931,GLH, Greenville Mid Delta,166 5th Ave,Greenville,MS,-90.98561,33.48288
+11941,GLV, Golovin Airport,,Golovin,AK,-163.00717,64.55046
+11952,GNU, Goodnews,,Goodnews,AK,-161.57744,59.11742
+11953,GNV, Gainesville Regional,3880 NE 39th Ave,Gainesville,FL,-82.27178,29.69006
+11973,GPT, Gulfport-Biloxi International,14035-L Airport Rd,Gulfport,MS,-89.07011,30.40728
+11977,GRB, Green Bay Austin Straubel International,2077 Airport Dr,Green Bay,WI,-88.12959,44.48507
+11980,GRI, Central Nebraska Regional,3743 Sky Park Rd,Grand Island,NE,-98.30964,40.96754
+11982,GRK, Robert Gray AAF,8101 S Clear Creek Rd,Fort Hood/Killeen,TX,-97.82893,31.06724
+11986,GRR, Gerald R. Ford International,5500 44th St SE,Grand Rapids,MI,-85.52281,42.88083
+11995,GSO, Piedmont Triad International,6415 Bryan Blvd,Greensboro,NC,-79.9373,36.09775
+11996,GSP, Greenville-Spartanburg International,2000 GSP Dr,Greer,SC,-82.21886,34.89567
+11997,GST, Gustavus Airport,,Gustavus,AK,-135.70741,58.42527
+12003,GTF, Great Falls International,2800 Terminal Dr,Great Falls,MT,-111.37069,47.482
+12007,GTR, Golden Triangle Regional,2080 Airport Rd,Columbus,MS,-88.59137,33.45033
+12012,GUC, Gunnison-Crested Butte Regional,711 Rio Grande Ave,Gunnison,CO,-106.93303,38.53394
+12055,GYY, Gary/Chicago International,6001 W Industrial Pkwy,Gary,IN,-87.41279,41.61627
+12061,HAE, Havasupai Airport,6079 County Rd 425,Hannibal,MO,-91.44368,39.72449
+12087,HCR, Holy Cross Airport,,Holy Cross,AK,-159.77495,62.1883
+12094,HDN, Yampa Valley,11005 RCR 51A,Hayden,CO,-107.21766,40.48118
+12119,HGR, Hagerstown Regional-Richard A. Henson Field,18434 Showalter Rd,Hagerstown,MD,-77.7295,39.70794
+12124,HHH, Hilton Head Airport,120 Beach City Rd,Hilton Head Island,SC,-80.69747,32.22436
+12129,HIB, Range Regional,11038 Hwy 37,Hibbing,MN,-92.83899,47.3866
+12132,HII, Lake Havasu City Airport,2330 N McCullogh,Lake Havasu City,AZ,-114.35828,34.57112
+12973,HII, Lake Havasu City Airport,2330 N McCullogh,Lake Havasu City,AZ,-114.35828,34.57112
+12134,HNL, Daniel K Inouye International,300 Rodgers Blvd,Honolulu,HI,-157.92241,21.31869
+12173,HNL, Daniel K Inouye International,300 Rodgers Blvd,Honolulu,HI,-157.92241,21.31869
+12141,HKB, Healy River,,Healy,AK,-148.96898,63.86621
+12156,HLN, Helena Regional,2580 Skyway Dr,Helena,MT,-111.98275,46.60681
+12171,HNH, Hoonah Airport,,Hoonah,AK,-135.4097,58.09609
+12174,HNM, Hana Airport,Alalele Place,Hana,HI,-156.01444,20.79564
+12175,HNS, Haines Airport,,Haines,AK,-135.52354,59.24383
+12177,HOB, Lea County Regional,W Carlsbad Hwy,Hobbs,NM,-103.21703,32.68753
+12184,HOM, Homer Airport,2336 Kachemak Dr,Homer,AK,-151.47658,59.64556
+12185,HON, Huron Regional,426 15th St NW,Huron,SD,-98.22854,44.3852
+12190,HOT, Memorial Field,525 Airport Rd,Hot Springs,AR,-93.09621,34.47803
+12191,HOU, William P Hobby,7800 Airport Blvd,Houston,TX,-95.27889,29.64542
+12195,HPB, Hooper Bay Airport,,Hooper Bay,AK,-166.14678,61.52418
+12197,HPN, Westchester County,240 Airport Rd,White Plains,NY,-73.70757,41.06696
+12206,HRL, Valley International,30026 Heritage Way,Harlingen,TX,-97.65439,26.2285
+12207,HRO, Boone County,2524 Airport Rd,Harrison,AR,-93.15473,36.26152
+12214,HSL, Huslia Airport,,Huslia,AK,-156.3875,65.70056
+12217,HSV, Huntsville International-Carl T Jones Field,1000 Glenn Hearn Blvd,Huntsville,AL,-86.77311,34.64045
+12223,HTS, Tri-State/Milton J. Ferguson Field,1449 Airport Rd,Huntington,WV,-82.55803,38.36667
+12235,HUS, Hughes Airport,,Hughes,AK,-154.26319,66.04112
+12244,HVN, Tweed New Haven,155 Burr St,New Haven,CT,-72.8871,41.2639
+12245,HVR, Havre City-County,Airport Rd,Havre,MT,-109.76234,48.54299
+12250,HYA, Barnstable Municipal-Boardman/Polando Field,480 Barnstable Rd,Hyannis,MA,-70.28036,41.66934
+12252,HYG, Hydaburg Seaplane Base,,Hydaburg,AK,-132.82831,55.20632
+12253,HYL, Hollis Seaplane Base,,Hollis,AK,-132.64609,55.48159
+12255,HYS, Hays Regional,3950 E 8th St,Hays,KS,-99.27403,38.84494
+12264,IAD, Washington Dulles International,1 Saarinen Circle,Dulles,VA,-77.45581,38.94453
+12266,IAH, George Bush Intercontinental/Houston,2800 N Terminal Rd,Houston,TX,-95.33972,29.98047
+12268,IAN, Bob Baker Memorial,,Kiana,AK,-160.43586,66.97938
+12278,ICT, Wichita Dwight D Eisenhower National,2713 Air Cargo Dr,Wichita,KS,-97.43306,37.64994
+12280,IDA, Idaho Falls Regional,2140 N Skyline Dr,Idaho Falls,ID,-112.07017,43.51456
+12294,IGG, Igiugig Airport,,Igiugig,AK,-155.90177,59.32404
+12297,IGM, Kingman Airport,7000 Flightline Dr,Kingman,AZ,-113.93806,35.25947
+12315,IKO, Nikolski AS,,Nikolski,AK,-168.85,52.94167
+12321,ILI, Iliamna Airport,,Iliamna,AK,-154.91096,59.7538
+12323,ILM, Wilmington International,1740 Airport Blvd,Wilmington,NC,-77.90256,34.27061
+12335,IMT, Ford,700 S Stephenson Ave,Iron Mountain,MI,-88.11454,45.81835
+12339,IND, Indianapolis International,7800 Colonel H Weir Cook Dr,Indianapolis,IN,-86.29438,39.71733
+12343,INL, Falls International Einarson Field,3214 2nd Ave E,International Falls,MN,-93.40307,48.56619
+12363,IPL, Imperial County,1099 Airport Rd,Imperial,CA,-115.57875,32.83422
+12365,IPT, Williamsport Regional,700 Airport Rd,Williamsport (Montoursville),PA,-76.9211,41.24184
+12370,IRC, Circle City,,Circle,AK,-144.07581,65.83049
+12375,IRK, Kirksville Regional,27161 Airport Trail,Kirksville,MO,-92.54497,40.09364
+12389,ISN, Sloulin Field International,421 Airport Rd`,Williston,ND,-103.64235,48.17794
+12390,ISO, Kinston Regional Jetport at Stallings Field,2780 Jetport Rd,Kinston,NC,-77.60883,35.33144
+12391,ISP, Long Island MacArthur,100 Arrivals Ave,Islip (Ronkonkoma),NY,-73.10021,40.79524
+12397,ITH, Ithaca Tompkins Regional,72 Brown Rd,Ithaca,NY,-76.45844,42.49103
+12402,ITO, Hilo International,1 General Lyman Field,Hilo,HI,-155.04847,19.72026
+12412,IWD, Gogebic-Iron County,E5560 Airport Rd,Ironwood,MI,-90.1314,46.52747
+12436,IYK, Inyokern Airport,1669 Airport Rd,Inyokern,CA,-117.82951,35.65884
+12441,JAC, Jackson Hole,1250 E Airport Rd,Jackson,WY,-110.73775,43.60733
+12448,JAN, Jackson Medgar Wiley Evers International,100 Intl Dr,Jackson,MS,-90.07589,32.31117
+12451,JAX, Jacksonville International,2800 Yankee Clipper Dr,Jacksonville,FL,-81.68786,30.49406
+12455,JBR, Jonesboro Municipal,3900 Lindberg,Jonesboro,AR,-90.64617,35.83186
+12478,JFK, John F. Kennedy International,JFK Intl Airport,New York (Jamaica),NY,-73.77893,40.63975
+12492,JHM, Kapalua Airport,,Lahaina,HI,-156.67303,20.96294
+12494,JHW, Chautauqua County/Jamestown,3163 Airport Dr,Jamestown,NY,-79.25803,42.15339
+12511,JLN, Joplin Regional,602 S Main St,Joplin,MO,-94.49827,37.15181
+12519,JMS, Jamestown Regional,1600 21st Ave NE,Jamestown,ND,-98.6782,46.92972
+12523,JNU, Juneau International,1873 Shell Simmons Dr,Juneau,AK,-134.57628,58.35496
+12559,JST, John Murtha Johnstown-Cambria County,479 Airport Rd,Johnstown,PA,-78.83394,40.31611
+12610,KAE, Kake Seaplane Base,,Kake,AK,-133.94561,56.973
+12615,KAL, Kaltag Airport,,Kaltag,AK,-158.74415,64.32572
+12621,KBC, Birch Creek Airport,,Birch Creek,AK,-145.82404,66.274
+12633,KCC, Coffman Cove Seaplane Base,,Coffman Cove,AK,-132.84197,56.00324
+12635,KCG, Chignik Bay Airport,,Fisheries,AK,-158.59093,56.31783
+12638,KCL, Chignik Lagoon Airport,,Chignik Flats,AK,-158.53593,56.31116
+12641,KCQ, Chignik Lake,,Chignik,AK,-158.37324,56.31146
+12647,KDK, Kodiak Municipal,1467 Airport Way,Kodiak,AK,-152.49386,57.74997
+12649,KEB, Nanwalek Airport,,English Bay,AK,-151.92516,59.35215
+12653,KEK, Ekwok Airport,,Ekwok,AK,-157.47441,59.35399
+12663,KFP, False Pass Airport,,False Pass,AK,-163.41032,54.84745
+12671,KGK, Koliganek Airport,,Koliganek,AK,-157.25947,59.72664
+12676,KGX, Grayling Airport,,Grayling,AK,-160.0649,62.89456
+12704,KKA, Koyuk Alfred Adams,,Koyuk,AK,-161.15815,64.93404
+12705,KKB, Kitoi Bay Airport,,Kitoi Bay,AK,-152.37049,58.19095
+12708,KKH, Kongiganak Airport,,Kongiganak,AK,-162.88125,59.96081
+12709,KKI, Akiachak Airport,3517 Eddie Hoffman Hwy,Akiachak,AK,-161.43508,60.90786
+12716,KKU, Ekuk Airport,,Ekuk,AK,-158.55884,58.81119
+12719,KLG, Kalskag Airport,,Kalskag,AK,-160.34133,61.53627
+12720,KLL, Levelock Airport,,Levelock,AK,-156.86522,59.11816
+12728,KLW, Klawock Airport,,Klawock,AK,-133.10169,55.55466
+12737,KMO, Manokatak Seaplane Base,,Manokotak,AK,-159.04992,58.9902
+12743,KMY, Moser Bay Airport,,Moser Bay,AK,-154.14592,57.02559
+12748,KNK, Kokhanok Airport,,Kokhanok,AK,-154.80373,59.43315
+12755,KNW, New Stuyahok Airport,,New Stuyahok,AK,-157.32832,59.44988
+12758,KOA, Ellison Onizuka Kona International at Keahole,73-100 Kupipi St,Kailua-Kona,HI,-156.04563,19.73877
+12769,KOT, Kotlik Airport,,Kotlik,AK,-163.53264,63.03058
+12771,KOY, Olga Bay Seaplane Base,,Olga Bay,AK,-154.22979,57.16145
+12772,KOZ, Ouzinkie Airport,,Ouzinkie,AK,-152.50051,57.92288
+12773,KPB, Point Baker Airport,,Point Baker,AK,-133.62259,56.35186
+12774,KPC, Port Clarence CGS,,Port Clarence,AK,-166.85852,65.25366
+12779,KPN, Kipnuk Airport,,Kipnuk,AK,-164.03051,59.93295
+12782,KPR, Port Williams Airport,,Port Williams,AK,-152.58217,58.49014
+12784,KPV, Perryville Airport,,Perryville,AK,-159.15556,55.90083
+12785,KPY, Port Bailey Airport,,Port Bailey,AK,-153.04056,57.93011
+12786,KQA, Akutan Airport,Seaplane Base,Akutan,AK,-165.78531,54.13247
+12807,KSM, St. Mary's Airport,,St Marys,AK,-163.30211,62.06049
+12815,KTB, Thorne Bay Seaplane Base,,Thorne Bay,AK,-132.53668,55.68796
+12819,KTN, Ketchikan International,1000 Airport Terminal Blg,Ketchikan,AK,-131.71375,55.35556
+12831,KUK, Kasigluk Airport,,Kasigluk,AK,-162.52481,60.87202
+12841,KVC, King Cove Airport,,King Cove,AK,-162.26623,55.11635
+12844,KVL, Kivalina Airport,,Kivalina,AK,-164.5635,67.73615
+12847,KWF, Waterfall Seaplane Base,,Waterfall,AK,-133.24334,55.29632
+12851,KWK, Kwigillingok Airport,,Kwigillingok,AK,-163.14034,59.83673
+12853,KWN, Quinhagak Airport,,Quinhagak,AK,-161.87948,59.75701
+12854,KWP, West Point Village,,West Point,AK,-153.54895,57.77011
+12855,KWT, Kwethluk Airport,,Kwethluk,AK,-161.44535,60.80425
+12857,KXA, Kasaan Seaplane Base,,Kasaan,AK,-132.39751,55.53741
+12866,KYK, Karluk Airport,,Karluk,AK,-154.45037,57.56706
+12868,KYU, Koyukuk Airport,,Koyuk,AK,-157.72728,64.87608
+12869,KZB, Zachar Bay Airport,,Zachar Bay,AK,-153.74534,57.55406
+12884,LAN, Capital Region International,4100 Capital City Blvd,Lansing,MI,-84.58736,42.7787
+12888,LAR, Laramie Regional,555 General Brees Rd,Laramie,WY,-105.675,41.31206
+12889,LAS, McCarran International,5757 Wayne Newton Blvd,Las Vegas,NV,-115.15233,36.08036
+12891,LAW, Lawton-Fort Sill Regional,3401 SW 11th St,Lawton,OK,-98.41664,34.56771
+12892,LAX, Los Angeles International,1 World Way,Los Angeles,CA,-118.40807,33.94254
+12896,LBB, Lubbock Preston Smith International,5401 N Martin Luther King Blvd,Lubbock,TX,-101.82278,33.66364
+12898,LBE, Arnold Palmer Regional,148 Aviation Ln,Latrobe,PA,-79.4048,40.27594
+12899,LBF, North Platte Regional Airport Lee Bird Field,5400 E Lee Bird Dr,North Platte,NE,-100.68365,41.12621
+12902,LBL, Liberal Mid-America Regional,7th & Terminal,Liberal,KS,-100.95986,37.04421
+12915,LCH, Lake Charles Regional,300 Airport Service Rd,Lake Charles,LA,-93.2234,30.1261
+12932,LEB, Lebanon Municipal,5 Airpark Rd,Lebanon,NH,-72.30419,43.62611
+12945,LEX, Blue Grass,4000 Terminal Dr,Lexington,KY,-84.60539,38.03697
+12951,LFT, Lafayette Regional Paul Fournet Field,200 Terminal Dr,Lafayette,LA,-91.98766,30.20528
+12953,LGA, LaGuardia,Ditmars Blvd & 94th St,New York (Flushing),NY,-73.87261,40.77724
+12954,LGB, Long Beach Airport,4100 Donald Douglas Dr,Long Beach,CA,-118.15161,33.81772
+12982,LIH, Lihue Airport,3901 Mokulele Loop,Lihue,HI,-159.33896,21.97598
+12992,LIT, Bill and Hillary Clinton Nat Adams Field,1 Airport Dr,Little Rock,AR,-92.22431,34.72944
+13002,LKE, Lake Union Terminal,950 Westlake Ave N,Seattle,WA,-122.3229,47.65232
+13016,LMA, Lake Minchumina Airport,,Minchumina,AK,-152.30068,63.88057
+13024,LMT, Crater Lake Klamath Regional,6775 Arnold Ave,Klamath Falls,OR,-121.73321,42.15614
+13029,LNK, Lincoln Airport,2400 W Adams,Lincoln,NE,-96.75925,40.85097
+13032,LNS, Lancaster Airport,500 Airport Rd,Lancaster (Lititz),PA,-76.2961,40.12172
+13034,LNY, Lanai Airport,Lanai City Airport,Lanai City,HI,-156.95142,20.78561
+13055,LPS, Lopez Island Airport,Airport Rd,Lopez Island,WA,-122.93684,48.4826
+13061,LRD, Laredo International,5210 Bob Bullock Loop,Laredo,TX,-99.46154,27.54374
+13109,LUP, Kalaupapa Airport,,Kalaupapa,HI,-156.9736,21.21104
+13111,LUR, Cape Lisburne LRRS,,Cape Lisburne,AK,-166.11002,68.87513
+13115,LVD, Lime Village Airport,,Lime Village,AK,-155.44048,61.35915
+13121,LWB, Greenbrier Valley,Route 219N,Lewisburg,WV,-80.39947,37.85831
+13127,LWS, Lewiston Nez Perce County,406 Burnell Ave,Lewiston,ID,-117.01539,46.3745
+13128,LWT, Lewistown Municipal,190 Terminal Dr,Lewistown,MT,-109.46669,47.04925
+13139,LYH, Lynchburg Regional/Preston Glenn Field,4308 Wards Rd,Lynchburg,VA,-79.20043,37.32669
+13158,MAF, Midland International Air and Space Port,9506 Laforce Blvd,Midland,TX,-102.20191,31.94253
+13182,MBL, Manistee County-Blacker,2323 Airport Rd,Manistee,MI,-86.24692,44.27242
+13184,MBS, MBS International,8500 Garfield Rd,Saginaw (Freeland),MI,-84.07965,43.53291
+13194,MCE, Merced Regional/Macready Field,20 Macready Dr,Merced,CA,-120.51389,37.28473
+13196,MCG, McGrath Airport,,Mc Grath,AK,-155.60576,62.95287
+13198,MCI, Kansas City International,601 Brasilia Ave,Kansas City,MO,-94.71391,39.29761
+13200,MCK, McCook Ben Nelson Regional,1100 Airport Rd,Mc Cook,NE,-100.59208,40.20628
+13203,MCN, Middle Georgia Regional,1000 Terminal Dr,Macon,GA,-83.64921,32.69285
+13204,MCO, Orlando International,1 Airport Blvd,Orlando,FL,-81.31603,28.42889
+13211,MCW, Mason City Municipal,Highway 18 W,Mason City,IA,-93.33126,43.15779
+13230,MDT, Harrisburg International,208 Airport Dr,Harrisburg (Middletown),PA,-76.7634,40.1935
+13232,MDW, Chicago Midway International,5700 S Cicero Ave,Chicago,IL,-87.75242,41.78598
+13241,MEI, Key Field,2811 Airport Blvd South,Meridian,MS,-88.75186,32.33264
+13244,MEM, Memphis International,2491 Winchester Rd,Memphis,TN,-89.97667,35.04242
+13256,MFE, McAllen Miller International,2800 S Bicentennial,Mc Allen,TX,-98.23861,26.17583
+13264,MFR, Rogue Valley International - Medford,3650 Biddle Rd,Medford,OR,-122.8735,42.37423
+13277,MGM, Montgomery Regional,4445 Selma Hwy,Montgomery,AL,-86.39398,32.30064
+13282,MGW, Morgantown Municipal-Walter L. Bill Hart Field,100 Hart Field Rd,Morgantown,WV,-79.91631,39.64291
+13290,MHK, Manhattan Regional,5500 Ft Riley Blvd,Manhattan,KS,-96.67083,39.14097
+13296,MHT, Manchester-Boston Regional,One Aiport Rd,Manchester,NH,-71.43706,42.93452
+13303,MIA, Miami International,Perimeter Rd & NW 20th St,Miami,FL,-80.29056,25.79325
+13342,MKE, General Mitchell International,5300 S Howell Ave,Milwaukee,WI,-87.89658,42.94722
+13344,MKG, Muskegon County,99 Sinclair Dr,Muskegon,MI,-86.23822,43.16949
+13347,MKK, Molokai,,Kaunakakai,HI,-157.09626,21.15289
+13348,MKL, McKellar-Sipes Regional,308 Grady Montgomery Dr,Jackson,TN,-88.91562,35.59988
+13360,MLB, Melbourne International,1 Air Terminal Pkwy,Melbourne,FL,-80.64526,28.10275
+13367,MLI, Quad City International,2200 69th Ave,Moline,IL,-90.50754,41.44853
+13369,MLL, Marshall Don Hunter Sr.,,Marshall,AK,-162.06905,61.86592
+13375,MLS, Frank Wiley Field,Hgwy 59 N Yellowstone Hill,Miles City,MT,-105.88625,46.42797
+13377,MLU, Monroe Regional,5400 Operations Rd,Monroe,LA,-92.03769,32.51087
+13381,MLY, Manley Hot Springs Airport,,Manley Hot Springs,AK,-150.64413,64.99756
+13415,MNT, Minto Al Wright,,Minto,AK,-149.36996,65.14371
+13422,MOB, Mobile Regional,8400 Aiport Blvd,Mobile,AL,-88.24283,30.69142
+13424,MOD, Modesto City-County-Harry Sham Field,617 Airport Way,Modesto,CA,-120.95442,37.62582
+13433,MOT, Minot International,25 Airport Rd,Minot,ND,-101.28033,48.25938
+13434,MOU, Mountain Village Airport,,Mountain Village,AK,-163.68206,62.09536
+13439,MPB, Watson Island International,1000 MacArthur Causeway,Miami,FL,-80.17028,25.77833
+13459,MQT, Sawyer International,225 G Ave,Marquette (Gwinn),MI,-87.39583,46.35361
+13476,MRY, Monterey Regional,200 Fred Kane Dr,Monterey,CA,-121.84295,36.58698
+13484,MSL, Northwest Alabama Regional,1729 T Ed Campbell Dr,Muscle Shoals,AL,-87.61023,34.74532
+13485,MSN, Dane County Regional-Truax Field,4000 Interntional Ln,Madison,WI,-89.33751,43.13986
+13486,MSO, Missoula International,5225 Hwy 10 West,Missoula,MT,-114.09056,46.91631
+13487,MSP, Minneapolis-St Paul International,4300 Glumack Dr,St Paul,MN,-93.21692,44.88055
+13490,MSS, Massena International-Richards Field,90 Aviation Rd,Massena,NY,-74.84556,44.93583
+13495,MSY, Louis Armstrong New Orleans International,900 Airline Hghwy,New Orleans (Kenner),LA,-90.25803,29.99339
+13502,MTJ, Montrose Regional,2100 Airport Rd,Montrose,CO,-107.89383,38.50887
+13504,MTM, Metlakatala,,Metlakatla,AK,-131.57807,55.13105
+13520,MUE, Waimea-Kohala,Hawaii Belt Rd,Kamuela,HI,-155.66811,20.00133
+13541,MVY, Martha's Vineyard Airport,RR 1,Vineyard Haven,MA,-70.61433,41.39303
+13543,MWA, Veterans Airport of Southern Illinois,10400 Terminal Dr,Marion,IL,-89.0116,37.75314
+13575,MYL, McCall Municipal,336 Deinhard Ln,McCall,ID,-116.10129,44.8897
+13577,MYR, Myrtle Beach International,1100 Jetport Rd,Myrtle Beach,SC,-78.92833,33.67975
+13579,MYU, Mekoryuk Airport,,Mekoryuk,AK,-166.27061,60.37142
+13676,NIB, Nikolai Airport,,Nikolai,AK,-154.36396,63.01745
+13693,NKI, Naukiti Airport,,Naukiti,AK,-133.18333,55.85556
+13698,NKV, Nichin Cove Seaplane Base,,Tuxekan Island,AK,-133.22783,55.84964
+13704,NLG, Nelson Lagoon Airport,,Nelson Lagoon,AK,-161.16037,56.00754
+13710,NME, Nightmute Airport,,Nightmute,AK,-164.68564,60.47033
+13715,NNL, Nondalton Airport,,Nondalton,AK,-154.83917,59.97912
+13767,NUI, Nuiqsut Airport,,Nuiqsut,AK,-151.00556,70.20995
+13768,NUL, Nulato Airport,,Nulato,AK,-158.07422,64.72931
+13770,NUP, Nunapitchuk Airport,,Nunapitchuk,AK,-162.43912,60.90583
+13785,YUM, Yuma MCAS/Yuma International,2191 E 32nd St,Yuma,AZ,-114.60597,32.65658
+16218,YUM, Yuma MCAS/Yuma International,2191 E 32nd St,Yuma,AZ,-114.60597,32.65658
+13795,OAJ, Albert J Ellis,264 Albert J Ellis Airport Rd,Jacksonville (Richlands),NC,-77.61214,34.82916
+13796,OAK, Metropolitan Oakland International,1 Airport Dr,Oakland,CA,-122.22072,37.72129
+13806,OBU, Kobuk Airport,,Kobuk,AK,-156.86106,66.90917
+13821,ODW, A.J. Eisenberg,1140 Monroe Landing Rd,Oak Harbor,WA,-122.6735,48.25149
+13830,OGG, Kahului Airport,I Kahului Airport Rd,Kahului,HI,-156.43046,20.89865
+13832,OGS, Ogdensburg International,5840 State Hwy 812,Ogdensburg,NY,-75.4655,44.68186
+13851,OKC, Will Rogers World,7100 Terminal Dr,Oklahoma City,OK,-97.60073,35.39309
+13862,OLF, L. M. Clayton,201 4th Ave S,Wolf Point,MT,-105.57505,48.09452
+13863,OLH, Old Harbor Airport,,Old Harbor,AK,-153.26975,57.2181
+13871,OMA, Eppley Airfield,4501 Abbott Dr,Omaha,NE,-95.89366,41.30219
+13873,OME, Nome Airport,Seppala Dr & Airport Rd,Nome,AK,-165.44525,64.5122
+13891,ONT, Ontario International,1940 E Moore Way,Ontario,CA,-117.60119,34.056
+13894,OOK, Toksook Bay,,Toksook Bay,AK,-165.11369,60.53355
+13930,ORD, Chicago O'Hare International,10000 W OHare,Chicago,IL,-87.90447,41.97958
+13931,ORF, Norfolk International,2200 Norview Ave,Norfolk,VA,-76.20122,36.89461
+13933,ORH, Worcester Regional,375 Airport Dr,Worcester,MA,-71.87571,42.26734
+13934,ORI, Port Lions Airport,Airport Rd,Port Lions,AK,-152.8461,57.88538
+13940,ORT, Northway Airport,,Northway,AK,-141.92914,62.96133
+13942,ORV, Robert/Bob/Curtis Memorial,,Noorvik,AK,-161.02779,66.82853
+13964,OTH, Southwest Oregon Regional,2348 Colorado,North Bend,OR,-124.24603,43.41714
+13968,OTS, Anacortes Airport,4000 Airport Rd,Anacortes,WA,-122.6624,48.49899
+13970,OTZ, Ralph Wien Memorial,1 Airport Way,Kotzebue,AK,-162.59855,66.88468
+13983,OWB, Owensboro Daviess County Regional,2200 Airport Rd,Owensboro,KY,-87.16683,37.74011
+13988,OXR, Oxnard,2889 W 5th St,Oxnard,CA,-119.20722,34.2008
+14006,PAH, Barkley Regional,2901 Fisher Rd,Paducah,KY,-88.77375,37.06083
+14027,PBI, Palm Beach International,1000 Turnage Blvd,West Palm Beach,FL,-80.09559,26.68316
+14037,PCA, Portage Creek Airport,,Portage Creek,AK,-157.71411,58.90649
+14046,PDB, Pedro Bay Airport,,Pedro Bay,AK,-154.12383,59.78961
+14054,PDT, Eastern Oregon Regional at Pendleton,2016 Airport Rd,Pendleton,OR,-118.84144,45.69506
+14057,PDX, Portland International,700 NE Airport Way,Portland,OR,-122.5975,45.58872
+14062,PEC, Pelican Seaplane Base,,Pelican,AK,-136.23627,57.95517
+14078,PFN, Bay County,3173 Airport Rd,Panama City,FL,-85.68281,30.21208
+14081,PGA, Page Municipal,238 10th Ave,Page,AZ,-111.44836,36.92611
+14088,PGM, Port Graham Airport,,Port Graham,AK,-151.83154,59.34826
+14092,PGV, Pitt Greenville,1105 N Memorial Dr,Greenville,NC,-77.38532,35.63524
+14098,PHF, Newport News/Williamsburg International,900 Bland Blvd,Newport News,VA,-76.49299,37.1319
+14100,PHL, Philadelphia International,8000 Essington Ave,Philadelphia,PA,-75.24114,39.87195
+14102,PHO, Point Hope Airport,,Point Hope,AK,-166.79935,68.34883
+14107,PHX, Phoenix Sky Harbor International,3400 E Sky Harbor Blvd,Phoenix,AZ,-112.00806,33.43417
+14108,PIA, General Downing - Peoria International,6100 W Dirksen Pkwy,Peoria,IL,-89.69331,40.66424
+14109,PIB, Hattiesburg-Laurel Regional,1002 Terminal Dr,Laurel/Hattiesburg (Moselle),MS,-89.33706,31.46714
+14112,PIE, St Pete Clearwater International,14700 Terminal Blvd,St Petersburg-Clearwater (Clearwater),FL,-82.68743,27.91062
+14113,PIH, Pocatello Regional,1950 Airport Way,Pocatello,ID,-112.59592,42.90978
+14119,PIP, Pilot Point Airport,,Pilot Point,AK,-157.56744,57.58038
+14120,PIR, Pierre Regional,4001 Airport Rd,Pierre,SD,-100.28597,44.38268
+14122,PIT, Pittsburgh International,1000 Airport Blvd,Pittsburgh,PA,-80.23287,40.49147
+14125,PIZ, Point Lay LRRS,,Point Lay,AK,-163.00534,69.73288
+14130,PKA, Napaskiak Airport,,Napakiak,AK,-161.77831,60.70292
+14131,PKB, Mid-Ohio Valley Regional,102 Airport Rd,Parkersburg (Williamstown),WV,-81.4392,39.3451
+14143,PLB, Clinton County,11 Airport Rd,Plattsburgh,NY,-73.52452,44.68752
+14150,PLN, Pellston Regional Airport of Emmet County,US 31 N,Pellston,MI,-84.79672,45.57093
+14167,PML, Port Moller Airport,,Port Moller,AK,-160.56079,56.00599
+14180,PNC, Ponca City Regional,2213 N Waverly St,Ponca City,OK,-97.09977,36.73058
+14193,PNS, Pensacola International,2430 Airport Blvd,Pensacola,FL,-87.18744,30.47331
+14229,PPV, Port Protection Airport,,Port Protection,AK,-133.61008,56.3288
+14231,PQI, Presque Isle International,650 Airport Dr,Presque Isle,ME,-68.0448,46.68896
+14234,PQS, Pilot Station Airport,,Pilot Station,AK,-162.89956,61.93456
+14237,PRC, Prescott Regional Ernest A Love Field,6546 Crystal Ln,Prescott,AZ,-112.41958,34.65447
+14252,PSC, Tri Cities,3601 N 20th Ave,Pasco,WA,-119.11903,46.26468
+14256,PSG, Petersburg James A Johnson,1504 Hougan Dr,Petersburg,AK,-132.94528,56.80165
+14262,PSP, Palm Springs International,3400 Tahquitz Canyon Way,Palm Springs,CA,-116.5067,33.82967
+14268,PTA, Port Alsworth Airport,,Port Alsworth,AK,-154.31887,60.20433
+14273,PTH, Port Heiden Airport,,Port Heiden,AK,-158.63182,56.95943
+14282,PTU, Platinum Airport,,Platinum,AK,-161.81967,59.01136
+14288,PUB, Pueblo Memorial,31201 Bryan Circle,Pueblo,CO,-104.49657,38.28909
+14303,PUW, Pullman Moscow Regional,3200 Airport Complex N,Pullman/Moscow ID,WA,-117.10958,46.74386
+14306,PVC, Provincetown Municipal,Provincetown Airport,Provincetown,MA,-70.22138,42.072
+14307,PVD, Theodore Francis Green State,200 Post Rd,Warwick,RI,-71.397,41.7624
+14321,PWM, Portland International Jetport,1001 Westbrook St,Portland,ME,-70.30875,43.64617
+14457,RAP, Rapid City Regional,4550 Terminal Rd,Rapid City,SD,-103.05736,44.04533
+14474,RBY, Ruby Airport,,Ruby,AK,-155.46987,64.72721
+14487,RDD, Redding Municipal,6751 Woodrum Circle,Redding,CA,-122.2934,40.50898
+14489,RDM, Roberts Field,2522 SE Jesse Butler Circle,Redmond,OR,-121.14996,44.25407
+14492,RDU, Raleigh-Durham International,2700 Terminal Blvd,Raleigh/Durham,NC,-78.78747,35.87764
+14493,RDV, Red Devil Airport,,Red Devil,AK,-157.35031,61.78808
+14512,RFD, Chicago/Rockford International,60 Airport Dr,Rockford,IL,-89.09721,42.19536
+14520,RHI, Rhinelander/Oneida County,3375 Airport Rd,Rhinelander,WI,-89.46745,45.63119
+14524,RIC, Richmond International,1 Richard E Byrd Terminal Dr,Richmond,VA,-77.31967,37.50517
+14534,RIW, Riverton Regional,816 N Federal Blvd and,Riverton,WY,-108.45984,43.06424
+14539,RKD, Knox County Regional,5 Airport Rd,Owls Head (Rockland),ME,-69.09925,44.06008
+14543,RKS, Southwest Wyoming Regional,382 Hwy 370,Rock Springs,WY,-109.06519,41.59422
+14559,RMP, Rampart Airport,,Rampart,AK,-150.14083,65.5079
+14570,RNO, Reno/Tahoe International,2001 E Plumb Ln,Reno,NV,-119.76806,39.49858
+14574,ROA, Roanoke Blacksburg Regional Woodrum Field,5202 Aviation Dr NW,Roanoke,VA,-79.97542,37.32547
+14576,ROC, Greater Rochester International,1200 Brooks Ave,Rochester,NY,-77.67239,43.11886
+14588,ROW, Roswell International Air Center,1 Jerry Smith Cir,Roswell,NM,-104.53056,33.30156
+14627,RSH, Russian Mission Airport,,Russian Mission,AK,-161.31948,61.77968
+14628,RSJ, Rosario Seaplane Base,1400 Rosario Rd,Rosario (Eastsound),WA,-122.86796,48.64566
+14633,RST, Rochester International,7701 Helgeson Dr & SW,Rochester,MN,-92.499,43.90722
+14635,RSW, Southwest Florida International,16000 Chamberlin Pkwy,Fort Myers,FL,-81.75517,26.53617
+14648,RUT, Rutland - Southern Vermont Regional,1002 Airport Rd,Rutland (N Clarendon),VT,-72.94962,43.52991
+14674,SAF, Santa Fe Municipal,121 Aviation Dr,Santa Fe,NM,-106.08814,35.61678
+14679,SAN, San Diego International,3225 N Harbor Dr,San Diego,CA,-117.18966,32.73356
+14683,SAT, San Antonio International,9800 Airport Blvd,SanAntonio,TX,-98.46978,29.53369
+14685,SAV, Savannah/Hilton Head International,400 Airways Ave,Savannah,GA,-81.20214,32.12758
+14689,SBA, Santa Barbara Municipal,500 Fowler Rd,Goleta,CA,-119.84037,34.42621
+14696,SBN, South Bend International,4477 Progress Dr,South Bend,IN,-86.31725,41.70866
+14698,SBP, San Luis County Regional,903-5 Airport Dr,San Luis Obispo,CA,-120.64187,35.23683
+14704,SBY, Salisbury-Ocean City/Wicomico Regional,5845 Airport Terminal Rd,Salisbury,MD,-75.51029,38.34053
+14709,SCC, Deadhorse Airport,419 James Dalton Hwy,Prudhoe Bay/Deadhorse,AK,-148.46516,70.19476
+14711,SCE, University Park,1535 Fox Hill Rd,State College,PA,-77.84869,40.84928
+14716,SCK, Stockton Metropolitan,5000 S Airport Way,Stockton,CA,-121.23831,37.89417
+14718,SCM, Scammon Bay Airport,,Scammon Bay,AK,-165.57375,61.84454
+14730,SDF, Louisville Muhammad Ali International,600 Terminal Dr,Louisville,KY,-85.736,38.17439
+14738,SDP, Sand Point,Airport Rd,Sand Point,AK,-160.51769,55.31503
+14745,SDY, Sidney Richland Regional,540 Airport Rd,Sidney,MT,-104.19255,47.70686
+14747,SEA, Seattle/Tacoma International,17801 Intl Blvd,Seattle,WA,-122.30931,47.44898
+14761,SFB, Orlando Sanford International,3200 Red Cleveland Blvd,Sanford,FL,-81.23749,28.77764
+14771,SFO, San Francisco International,Intersection Rts 101/380,San Francisco,CA,-122.37489,37.61897
+14783,SGF, Springfield-Branson National,5000 W Kearney,Springfield,MO,-93.38686,37.24433
+14794,SGU, St George Regional,317 S Donlee Dr,St George,UT,-113.59306,37.09058
+14797,SGY, Skagway Airport,,Skagway,AK,-135.31566,59.46006
+14802,SHD, Shenandoah Valley Regional,77 Aviation Circle,Staunton/Waynesboro/Harrisonburg,VA,-78.89644,38.26384
+14804,SHG, Shungnak Airport,,Shungnak,AK,-157.1624,66.88808
+14805,SHH, Shishmaref Airport,,Shishmaref,AK,-166.08956,66.24957
+14812,SHR, Sheridan County,908 W Brundage Ln,Sheridan,WY,-106.98028,44.76919
+14814,SHV, Shreveport Regional,5103 Hollywood Ave,Shreveport,LA,-93.8256,32.44663
+14816,SHX, Shageluk Airport,,Shageluk,AK,-159.56906,62.69512
+14828,SIT, Sitka Rocky Gutierrez,605 Airport Rd,Sitka,AK,-135.36161,57.04714
+14831,SJC, Norman Y. Mineta San Jose International,1661 Airport Blvd,San Jose,CA,-121.92901,37.36186
+14842,SJT, San Angelo Regional/Mathis Field,8618 Terminal Dr,San Angelo,TX,-100.49631,31.35775
+14856,SKK, Shaktoolik Airport,,Shaktoolik,AK,-161.22389,64.37111
+14869,SLC, Salt Lake City International,776 N Terminal Dr,Salt Lake City,UT,-111.981,40.7859
+14875,SLK, Adirondack Regional,96 Airport Rd,Saranac Lake,NY,-74.20619,44.38531
+14877,SLN, Salina Regional,3237 Arnold Ave,Salina,KS,-97.6506,38.79148
+14880,SLQ, Sleetmute Airport,,Sleetmute,AK,-157.16585,61.70051
+14893,SMF, Sacramento International,6970 Airport Blvd,Sacramento,CA,-121.59078,38.69542
+14895,SMK, St. Michael Airport,,St Michael,AK,-162.11037,63.49005
+14897,SMN, Lemhi County,Airport Rd,Salmon,ID,-113.88133,45.12378
+14905,SMX, Santa Maria Public/Capt. G. Allan Hancock Field,3217 Terminal Dr,Santa Maria,CA,-120.45744,34.89892
+14908,SNA, John Wayne Airport-Orange County,18601 Airport Way,Santa Ana,CA,-117.86822,33.67567
+14919,SNP, St. Paul Island,,St Paul Island,AK,-170.22044,57.16733
+14942,SOV, Seldovia Airport,,Seldovia,AK,-151.70405,59.44244
+14943,SOW, Show Low Regional,3150 E Airport Loop 100,Show Low,AZ,-110.00567,34.26547
+14952,SPI, Abraham Lincoln Capital,1200 Capital Airport Dr,Springfield,IL,-89.67789,39.8441
+14960,SPS, Sheppard AFB/Wichita Falls Municipal,4000 Armstrong Dr,Wichita Falls,TX,-98.49189,33.9888
+14986,SRQ, Sarasota/Bradenton International,6000 Airport Circle,Sarasota/Bradenton,FL,-82.55439,27.39545
+14987,SRV, Stony River Airport,,Stony River,AK,-156.58853,61.78975
+15008,STC, St. Cloud Regional,1550 45th Ave SE Suite One,St Cloud,MN,-94.05988,45.54656
+15012,STG, St. George Island Airport,,St George,AK,-169.66374,56.57735
+15016,STL, St Louis Lambert International,10701 Lambert Int Blvd,St Louis,MO,-90.35999,38.74769
+15041,SUN, Friedman Memorial,1616 Airport Way,Hailey,ID,-114.29583,43.50406
+15048,SUX, Sioux Gateway Brig Gen Bud Day Field,2403 Aviation Blvd,Sioux City,IA,-96.38437,42.4026
+15049,SVA, Savoonga Airport,,Savoonga,AK,-170.49264,63.68639
+15051,SVC, Grant County,188 Airport Rd,Silver City (Hurley),NM,-108.15639,32.63655
+15061,SVS, Stevens Village Airport,,Stevens Village,AK,-149.09592,66.00901
+15070,SWF, New York Stewart International,1180 1st St,Newburgh (New Windsor),NY,-74.10484,41.50409
+15085,SXP, Nunam Iqua,,Sheldon Point,AK,-164.84778,62.52056
+15091,SYB, Seal Bay Airport,,Seal Bay,AK,-152.5,58.16667
+15096,SYR, Syracuse Hancock International,1000 Col Eileen Collins Blvd,Syracuse,NY,-76.10631,43.11119
+15124,TAL, Ralph M Calhoun Memorial,,Tanana,AK,-152.10939,65.1744
+15138,TBN, Waynesville-St. Robert Regional Forney Field,Building 5017,Fort Leonard Wood,MO,-92.14074,37.74163
+15160,TCT, Takotna Airport,,Takotna,AK,-156.06819,62.9927
+15170,TEH, Tetlin Airport,,Tetlin,AK,-142.52193,63.13382
+15177,TEX, Telluride Regional,1500 Last Dollar Rd,Telluride,CO,-107.90848,37.95376
+15231,TKE, Tenakee Airport,,Tenakee Springs,AK,-135.21844,57.77966
+15236,TKJ, Tok Junction,,Tok,AK,-143.00612,63.29548
+15245,TLA, Teller Airport,,Teller,AK,-166.33931,65.24038
+15249,TLH, Tallahassee International,3300 Capitol Circle SW,Tallahassee,FL,-84.35033,30.39653
+15250,TLJ, Tatalina LRRS,,Takotna,AK,-155.97653,62.89437
+15257,TLT, Tuluksak Airport,,Tuluksak,AK,-160.96947,61.09683
+15278,TNC, Tin City LRRS,,Tin City,AK,-167.92166,65.56311
+15282,TNK, Tununak Airport,,Tununak,AK,-165.27165,60.57555
+15293,TOG, Togiak Airport,,Togiak Village,AK,-160.39693,59.05284
+15295,TOL, Toledo Express,11013 Airport Hwy,Toledo (Swanton),OH,-83.80783,41.58681
+15304,TPA, Tampa International,5503 W Spruce St,Tampa,FL,-82.53325,27.97547
+15323,TRI, Tri Cities,2525 Hwy 75,Bristol/Johnson/Kingsport (Blountville),TN,-82.40742,36.47521
+15342,TSM, Taos Regional,24662 US Hwy 64,Taos,NM,-105.67243,36.45819
+15356,TTN, Trenton Mercer,1100 Terminal Circle Dr,Trenton (West Trenton),NJ,-74.81347,40.27669
+15370,TUL, Tulsa International,7777 E Apache,Tulsa,OK,-95.88824,36.19837
+15374,TUP, Tupelo Regional,2704 W Jackson St,Tupelo,MS,-88.7699,34.26811
+15376,TUS, Tucson International,7005 S Plumber Ave,Tucson,AZ,-110.94103,32.11608
+15380,TVC, Cherry Capital,727 Fly Dont Dr,Traverse City,MI,-85.58224,44.74144
+15381,TVF, Thief River Falls Regional,Thief River Falls Airport,Thief River Falls,MN,-96.18336,48.0655
+15385,TWA, Twin Hills Airport,,Twin Hills,AK,-160.27304,59.07562
+15389,TWF, Joslin Field - Magic Valley Regional,492 Airport Loop,Twin Falls,ID,-114.48774,42.4818
+15401,TXK, Texarkana Regional-Webb Field,201 Airport Dr,Texarkana,AR,-93.99103,33.45372
+15411,TYR, Tyler Pounds Regional,700 Skyway Blvd,Tyler,TX,-95.40239,32.35414
+15412,TYS, McGhee Tyson,3755 Alcoa Hwy,Knoxville (Alcoa),TN,-83.99286,35.81249
+15444,UGB, Ugashik Bay,,Pilot Point,AK,-157.73987,57.42536
+15446,UGI, Uganik Airport,,Uganik,AK,-153.5,57.88333
+15454,UIN, Quincy Regional-Baldwin Field,1645 Hwy 104,Quincy,IL,-91.19457,39.94273
+15478,UNK, Unalakleet Airport,,Unalakleet,AK,-160.79895,63.88836
+15554,VAK, Chevak Airport,,Chevak,AK,-165.58373,61.53364
+15569,VCT, Victoria Regional,609 Foster Field Dr,Victoria,TX,-96.91849,28.85256
+15579,VDZ, Valdez Pioneer Field,300 Airport Rd,Valdez,AK,-146.24836,61.13395
+15581,VEE, Venetie Airport,,Venetie,AK,-146.41378,67.02269
+15582,VEL, Vernal Regional,825 S 500 E,Vernal,UT,-109.50992,40.44092
+15589,VGT, North Las Vegas,2730 Airport Dr,North Las Vegas,NV,-115.19575,36.21167
+15601,VIS, Visalia Municipal,9501 Airport Dr,Visalia,CA,-119.39289,36.31867
+15607,VLD, Valdosta Regional,1750 Airport Rd,Valdosta,GA,-83.27672,30.7825
+15624,VPS, Eglin AFB Destin Fort Walton Beach,1701 State Rd 85 N,Valparaiso (Eglin AFB),FL,-86.5254,30.48325
+15709,WAA, Wales Airport,,Wales,AK,-168.09917,65.62394
+15721,WBB, Stebbins Airport,,Stebbins,AK,-162.27799,63.51597
+15725,WBQ, Beaver Airport,,Beaver,AK,-147.40122,66.36155
+15734,WDG, Enid Woodring Regional,1026 S 66th St,Enid,OK,-97.79111,36.3792
+15741,WFB, Ketchikan Waterfront Seaplane Base,,Ketchikan,AK,-131.67669,55.34993
+15774,WKK, Aleknagik New,,Aleknagik,AK,-158.61767,59.28256
+15785,WLK, Selawik Airport,,Selawik,AK,-159.98619,66.60003
+15793,WMK, Meyers Chuck Seaplane Base,,Meyers Chuck,AK,-132.25502,55.73964
+15794,WMO, White Mountain Airport,,White Mountain,AK,-163.41276,64.68919
+15798,WNA, Napakiak Airport,,Napakiak,AK,-161.9785,60.69033
+15841,WRG, Wrangell Airport,1 Airport Loop Rd,Wrangell,AK,-132.36982,56.48433
+15843,WRL, Worland Municipal,1438 Airport Rd,Worland,WY,-107.95083,43.96571
+15853,WSN, South Naknek 2,,South Naknek,AK,-157.00825,58.70344
+15855,WST, Westerly State,56 Airport Rd,Westerly,RI,-71.80338,41.34962
+15856,WSX, Westsound Airport,Westsound Marina,Westsound,WA,-122.95268,48.61788
+15861,WTK, Noatak Airport,,Noatak,AK,-162.97528,67.56208
+15862,WTL, Tuntutuliak Airport,,Tuntutuliak,AK,-162.66701,60.33535
+15885,WWP, Whale Pass Airport,,North Whale Pass,AK,-133.12172,56.11631
+15887,WWT, Newtok Airport,,Newtok,AK,-164.65621,60.92365
+15897,WYS, Yellowstone,721 Yellowstone Airport Rd,West Yellowstone,MT,-111.11764,44.6884
+15919,XNA, Northwest Arkansas Regional,1 Airport Blvd,Fayetteville (Bentonville),AR,-94.30681,36.28187
+15991,YAK, Yakutat Airport,997 Airport Rd,Yakutat,AK,-139.66025,59.50331
+16101,YKM, Yakima Air Terminal/McAllister Field,2400 W Washington Ave,YAKIMA,WA,-120.54406,46.56817
