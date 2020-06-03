@@ -1,0 +1,67 @@
+#app.py
+
+
+import pandas as pd
+from flask import Flask, jsonify, render_template
+from flask_sqlachemy import SQLAlchemy
+
+app=FLASK (__name__)
+
+
+# database URI(forexample)
+app.config('SQLALCHEMY_DATABASE_URI') = "sqlite:///db/flight_2019_db"
+
+db = SQLAlchemy(app)
+
+#create our database model
+class flight(db.Model):
+	__tablename__ = 'flight'
+
+	airport_id = db.Column(db.Integer, primary_key=True)
+	sthelse = db.Column (db.String)
+	blahblah = db. Column (db.integer)
+
+
+.......
+
+	def __repr__(self):
+	return '<Flight %r>' % (self.name)
+
+# Creat database tables
+@app.before_first_request
+def setup():
+	recreate database eachtime for demo
+	db.drop_all()
+	db.create_all()
+
+@app.route("/")
+def index():
+	return render_template('index.html')
+
+
+@app.route("/data")
+def data():
+	print(flight_data)
+	return jsonify(flight_data)
+	
+	results = db.session.query(flight.date, flight. sth).order_by(flight.count.desc()).limit(30).all()
+	df= pd.read_sql_query(query_statement, db.session.bind) or df = pd.DataFrame(results, columns =['name', 'count'])
+	
+	#create lists
+	flight_sth = [result[0] for result in results]
+	flight_sth_2 = [int(result[1]) for result in results]
+
+
+
+@app.route("/bubble")
+
+
+@app.route("/calendar")
+
+@app.route("/flight")
+
+
+
+
+if__name__=="__main__":
+app.run(debug=True)
