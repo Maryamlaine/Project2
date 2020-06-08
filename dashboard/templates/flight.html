@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Flight Paths using Edge Bundling</title>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script src="https://unpkg.com/d3-delaunay@4"></script>
+  <script src="https://unpkg.com/d3-geo-voronoi@1"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <h2>The select Element</h2>
+
+<p>The select element defines a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="year">Choose a year:</label>
+  <select id="year" name="year">
+    <option value="2019">Before Covid</option>
+    <option value="2020">After Covid</option>
+  </select>
+</form>
+
+<!-- must be 960x600 to match topojson us atlas files -->
+<svg width="960" height="600">
+  <!-- must be in this order for drawing -->
+  <g id="basemap"></g>
+  <g id="flights"></g>
+  <g id="airports"></g>
+  <g id="voronoi"></g>
+  <text id="tooltip" style="display: none;"></text>
+</svg>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="{{ url_for('static', filename='js/script_m.js') }}"></script>
+
+
+</body>
+</html>
