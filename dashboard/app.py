@@ -4,7 +4,7 @@ import numpy as np
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
+from sqlalchemy import create_engine, func, or_
 from flask import Flask, jsonify, render_template, redirect
 from flask_sqlalchemy import SQLAlchemy
 
@@ -52,8 +52,8 @@ def airports():
     locations = session.query(Airport.airport_code, Airport.airport_name,Airport.city ,Airport.state, Airport.longitude,Airport.latitude).all()
     # print(locations)
     list_airports = []
-    for x in locations:
-        print(x)
+    # for x in locations:
+    #     print(x)
     for airport_code, airport_name, city, state, longitude, latitude in locations:
         y = { 'iata':airport_code, 
                'name': airport_name, 
@@ -71,33 +71,33 @@ def airports():
 def flight():
     return render_template("flight.html")    
 
-@app.route("/flights")
-def flights():
+@app.route("/flights/<year>")
+def flights(year):
     """Return the homepage."""
     airlines = session.query(
 	Flight.airline_code, Airline.airline_code, func.avg(Flight.departure_delay)
 	).filter(
 		Airline.airline_code == Flight.airline_code
 	).filter(
-		Flight.year == '2020'
-	).group_by(
+        Flight.year == year
+    ).group_by(
 		Flight.airline_code
 	).group_by(
 		Airline.airline_code
-	).all()
+     ).all()
     
-    results = engine.execute("select d.airport_code, a.airport_code, avg(f.departure_delay) from flight f inner join airport d on f.departure_airport = d.airport_id inner join airport a on f.arrival_airport = a.airport_id group by d.airport_code, a.airport_code")
-    # results = session.query(Flight.departure_airport, Flight.arrival_airport, func.avg(Flight.departure_delay).label("count")).\
-    #     group_by(Flight.departure_airport, Flight.arrival_airport).all()
-    # print(results)
+    results = engine.execute("select d.airport_code, a.airport_code,avg(f.departure_delay) from flight f inner join airport d on f.departure_airport = d.airport_id inner join airport a on f.arrival_airport = a.airport_id group by d.airport_code, a.airport_code")
+    
     list_delays = []
     # for x in results:
         # print(x)
     for departure_airport, arrival_airport, departure_delay in results:
         y = { 'origin':departure_airport, 
-               'destination': arrival_airport, 
-                'count':  departure_delay
-        }
+              'destination': arrival_airport, 
+              'count':  departure_delay,
+            #   'year': year
+
+                       }
         list_delays.append(y)
         # print(jsonify(list_delays))
     return jsonify(list_delays)
