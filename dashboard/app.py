@@ -15,12 +15,6 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 #################################################
-
-<<<<<<< HEAD
-=======
-# app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@flightdb.cbg99jbqtg8u.us-east-2.rds.amazonaws.com/flightdb"
-# db = SQLAlchemy(app)
->>>>>>> refs/remotes/origin/master
 engine = create_engine("postgresql://postgres:postgres@flightdb.cbg99jbqtg8u.us-east-2.rds.amazonaws.com/flightdb")
 # # reflect an existing database into a new model
 Base = automap_base()
