@@ -158,7 +158,7 @@ def airports():
 def flight():
     return render_template("flightRoutes.html")    
 
-@app.route("/flights")
+@app.route("/flights/<year>")
 def flights():
     """Return the homepage."""
     airlines = session.query(
