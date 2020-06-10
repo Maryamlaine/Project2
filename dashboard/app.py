@@ -1,3 +1,4 @@
+import pandas as pd
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
@@ -34,6 +35,7 @@ session = Session(engine)
 
 flight_table = Base.classes.flight
 airport_table = Base.classes.airport
+airline_table = Base.classes.airline
 
 Airline = Base.classes.airline
 Airport = Base.classes.airport
@@ -212,7 +214,43 @@ def calendar_map():
     return render_template("calendar.html")
 
 
+@app.route("/barChartAirport")
+def bar_chart_airport():
+    airport_results = session.query(airport_table.airport_name).order_by(airport_table.airport_name).all()
+    airport_list = []
+    for i in range(len(airport_results)):
+        airport_dict = {} 
+        airport_dict['airport_name'] = airport_results[i][0]
+        airport_list.append(airport_dict)
+    return jsonify(airport_list)
+    
+@app.route("/barData")
+def bar_data():
+    airline = pd.read_sql(session.query(airline_table).statement, session.bind) 
+    flight = pd.read_sql(session.query(flight_table).statement, session.bind) 
+    airport = pd.read_sql(session.query(airport_table).statement, session.bind)
+    flight_2019 = flight[(flight.year == 2019)]
+    flight_airport = pd.merge(flight_2019, airport, left_on = "departure_airport", right_on = "airport_id")
+    flight_airport.drop(["city", "state", "longitude", "latitude", "address", "departure_airport", "airport_id"], axis = 1, inplace = True)
+    flight_airport.rename(columns = {'airport_name': 'departure_airport', 'airport_code': 'departure_airport_code'}, inplace = True)
+    new_flight_airport = pd.merge(flight_airport, airport, left_on = "arrival_airport", right_on = "airport_id")
+    new_flight_airport.drop([ "city", "state", "longitude", "latitude", "address","arrival_airport", "airport_id"], axis=1, inplace = True)
+    new_flight_airport.rename(columns = {'airport_name': 'arrival_airport', 'airport_code': 'arrival_airport_code'}, inplace = True)
+    flight_airline = pd.merge(new_flight_airport, airline, on = "airline_code")
+    flight_airline.drop(["Code", "airline_code"], axis = 1, inplace = True)
+    flight_airline.rename(columns = {'Description': 'airline'}, inplace = True)
+    count_airports = flight_airline.groupby(["arrival_airport", "departure_airport","airline"]).agg("count")["flight_id"].reset_index()
+    delay = flight_airline.groupby(["arrival_airport", "departure_airport", "airline"]).agg("mean")[["departure_delay", "arrival_delay","carrier_delay","weather_delay","national_aviation_system_delay","security_delay", "late_aircraft_delay","cancelled"]].reset_index()
+    df = pd.merge(delay, count_airports, on = ["arrival_airport", "departure_airport", "airline"])
+    df_dict = df.to_json(orient='records')
 
+    return jsonify(df_dict)
+
+
+@app.route("/barChartAirport")
+def bar_chart():
+
+    return render_template("calendar.html")
 
 
 if __name__ == "__main__":
