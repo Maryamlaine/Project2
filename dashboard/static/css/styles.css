@@ -9863,8 +9863,8 @@ button.bg-black:focus {
     text-align: left !important;
   }
 
-  .text-lg-right {
-    text-align: right !important;
+  .text-lg-left {
+    text-align: left !important;
   }
 
   .text-lg-center {
@@ -10228,7 +10228,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/runway.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/runway.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10306,15 +10306,15 @@ body {
   }
 }
 
-.signup-section {
+.data-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/terminal.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../img/terminal.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-.signup-section .form-inline input {
+.data-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
@@ -10325,28 +10325,28 @@ body {
   border: 0;
 }
 
-.contact-section {
+.team-section {
   padding-top: 5rem;
 }
-.contact-section .card {
+.team-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
 }
-.contact-section .card h4 {
+.team-section .card h4 {
   font-size: 0.8rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
-.contact-section .card hr {
+.team-section .card hr {
   border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
 }
-.contact-section .social {
+.team-section .social {
   margin-top: 5rem;
 }
-.contact-section .social a {
+.team-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
@@ -10355,10 +10355,10 @@ body {
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
-.contact-section .social a:hover {
+.team-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-.contact-section .social a:active {
+.team-section .social a:active {
   color: #fff;
 }
 

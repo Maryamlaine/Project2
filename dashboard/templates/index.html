@@ -7,16 +7,16 @@
         <meta name="author" content="" />
         <title>Grayscale - Start Bootstrap Theme</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
+        <!-- Font Awesome icons (free version) -->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
+        <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- Core theme CSS (includes Bootstrap) -->
         <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
+        <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
@@ -30,17 +30,17 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
+        <!-- Masthead -->
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Airport Delays</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Clickbait: You won't believe why they're late!</h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Data vizualization for Project 2</h2>
                     <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
                 </div>
             </div>
         </header>
-        <!-- About-->
+        <!-- About -->
         <section class="about-section text-center" id="about">
             <div class="container">
                 <div class="row">
@@ -61,9 +61,10 @@
                 <img class="img-fluid" src="static/img/airliner.png" alt="" />
             </div>
         </section>
-        <!-- Projects-->
+        <!-- Projects -->
         <section class="projects-section bg-light" id="projects">
             <div class="container">
+<<<<<<< HEAD
                 <!-- Featured Project Row-->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="static/img/flight_routes.png" alt="" href = "/flights"/></div>
@@ -71,34 +72,55 @@
                         <div class="featured-text text-center text-lg-left">
                             <h4>Flight Routes</h4>
                             <p class="text-black-50 mb-0">Here we will say something or other about the flight paths.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project One Row-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="static/img/heatmap.png" alt="" /></div>
-                    <div class="col-lg-6">
+=======
+                <!-- Flight Route Row -->
+                <div class="flight-routes-d3"></div>
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-12 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Calendar Heatmap</h4>
-                                    <p class="mb-0 text-white-50">Temporary image to represent where we can append the heatmap with d3</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                    <h4 class="text-white">Flight Routes</h4>
+                                    <p class="mb-0 text-white-50">Visualizes flights between airports in the continental 
+                                                                  United States using edge bundling. This example combines 
+                                                                  our map and graph visualizations together in a single visualization. 
+                                                                  It demonstrates map projections, TopoJSON, Voronoi diagrams, 
+                                                                  force-directed layouts, and edge bundling.
+                                    </p>
+                                </div>
+                            </div>
+>>>>>>> refs/remotes/origin/master
+                        </div>
+                    </div>
+                </div>
+                <!-- Bubble Row -->
+                <div class="bubble-d3 col-lg-12"></div>
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-12 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Bubble Chart</h4>
+                                    <p class="mb-0 text-white-50">Append bubble chart to div class ".bubble-d3"</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project Two Row-->
+                <!-- Project Two Row -->
+                <div class="heatmap-d3"></div>
                 <div class="row justify-content-center no-gutters">
+<<<<<<< HEAD
                     <div class="col-lg-6"><img class="img-fluid" src="static/img/bubble_map.jpg" alt="" href = "/bubbleChart"/></div>
                     <div class="col-lg-6 order-lg-first">
+=======
+                    <div class="col-lg-12 order-lg-first">
+>>>>>>> refs/remotes/origin/master
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Bubble Chart</h4>
-                                    <p class="mb-0 text-white-50">Temporary image to represent bubble chart</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Calendar Heatmap</h4>
+                                    <p class="mb-0 text-white-50">Append heatmap to div class ".heatmap-d3"</p>
                                 </div>
                             </div>
                         </div>
@@ -106,8 +128,8 @@
                 </div>
             </div>
         </section>
-        <!-- Signup-->
-        <section class="signup-section" id="data">
+        <!-- Data -->
+        <section class="data-section" id="data">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -121,8 +143,8 @@
                 </div>
             </div>
         </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black" id="team">
+        <!-- Team -->
+        <section class="team-section bg-black" id="team">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 mb-3 mb-md-0">
@@ -167,7 +189,7 @@
                 </div>
             </div>
         </section>
-        <!-- Footer-->
+        <!-- Footer -->
         <footer class="footer bg-black small text-center text-white-50">
             <div class="container">Image sources: </br>
                 "Palm Springs International Airport photo D Ramey Logan.jpg" from Wikimedia Commons by D Ramey Logan, CC-BY 4.0</br>
@@ -175,12 +197,17 @@
                 "Stuttgart Airport Terminal 1.jpg" from Wikimedia Commons by CatalpaSpirit, CC-BY 4.0
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
+        <!-- D3 -->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script type="text/javascript" src="static/js/placeholder1.js"></script>
+        <script type="text/javascript" src="static/js/placeholder2.js"></script>
+        <script type="text/javascript" src="static/js/placeholder3.js"></script>
+        <!-- Bootstrap core JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
+        <!-- Third party plugin JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
+        <!-- Core theme JS -->
         <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
     </body>
 </html>
