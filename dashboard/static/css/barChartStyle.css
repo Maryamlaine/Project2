@@ -1,0 +1,18 @@
+.main-title{
+    background-color: lightgray;
+    font-size: 180%;
+    font-family: "Book Antiqua","Time New Roman";
+    padding: 10px;
+
+}
+.text-notes{
+    border: 1px solid grey;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.main-text{
+    border: 1px solid grey;
+    text-align: center;
+
+}

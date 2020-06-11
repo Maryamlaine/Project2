@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bar Chart</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/barChartStyle.css') }}">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class = "main-title">
+            <h4>Flight Delay and Cancellation Dashboard</h4>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5><strong>COVID-19 Effect:</strong></h5>
+          <select id="d3-dropdown" onchange="optionCovChanged(this.value)">
+            <option value=2019 selected="selected">March 2019</option>
+            <option value=2020>March 2020</option>
+          </select>
+        </div>
+        </div>
+        <div class="col-md-5">
+          <h5><strong>Departure Airport:</strong></h5>
+          <select id="selDeparture" onchange="optionDeChanged(this.value)">
+        </select>
+        </div>
+        <div class="col-md-5">
+          <h5><strong>Arrival Airport:</strong></h5>
+          <select id="selArrival" onchange="optionArChanged(this.value)"></select>
+        </div>
+      </div>
+  </div>
+    <br>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+            <div id="flight_text"></div>
+      </div>
+      <div class="col-md-2" >
+        <div class = "text-notes">
+            <h5>Airline Quantity</h5>
+        </div>
+        <div class = "main-text">
+            <div id="di_text"></div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class = "text-notes">
+            <h5>Average Departure Delay</h5>
+        </div>
+        <div class = "main-text">
+            <div id="aad_text"></div>
+        </div>
+      </div>
+      <div class="col-md-2"> 
+        <div class = "text-notes">
+            <h5>Average Arrival Delay</h5>
+        </div>
+        <div class = "main-text">
+            <div id="pd_text"></div>
+        </div>
+
+      </div>
+      <div class="col-md-2" >
+        <div class = "text-notes">
+            <h5>Cancellation Rate</h5>
+        </div>
+        <div class = "main-text">
+            <div id="cr_text"></div>
+        </div>
+
+        <br>
+      </div>
+    </div>
+    </div>
+    <br>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-4">
+        <div id="pie"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="line"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/barChart.js') }}"></script>
+  
+
+</body>
+
+</html>

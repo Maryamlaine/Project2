@@ -6,14 +6,24 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Grayscale - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <script src="https://unpkg.com/topojson@3"></script>
+        <script src="https://unpkg.com/d3-delaunay@4"></script>
+        <script src="https://unpkg.com/d3-geo-voronoi@1"></script>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.ico') }}" />
         <!-- Font Awesome icons (free version) -->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap) -->
-        <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+          <!-- Our CSS -->
+  <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bubbleChartStyle.css') }}"> -->
+  <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
     </head>
     <body id="page-top">
         <!-- Navigation -->
@@ -62,34 +72,38 @@
             </div>
         </section>
         <!-- Projects -->
+     
         <section class="projects-section bg-light" id="projects">
             <div class="container">
-<<<<<<< HEAD
-                <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="static/img/flight_routes.png" alt="" href = "/flights"/></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Flight Routes</h4>
-                            <p class="text-black-50 mb-0">Here we will say something or other about the flight paths.</p>
-=======
                 <!-- Flight Route Row -->
-                <div class="flight-routes-d3"></div>
+                <!-- <div w3-include-html="bubbleChart"></div> -->
                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-12 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
+                        <div >
+                            <div >
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Flight Routes</h4>
-                                    <p class="mb-0 text-white-50">Visualizes flights between airports in the continental 
-                                                                  United States using edge bundling. This example combines 
-                                                                  our map and graph visualizations together in a single visualization. 
-                                                                  It demonstrates map projections, TopoJSON, Voronoi diagrams, 
-                                                                  force-directed layouts, and edge bundling.
-                                    </p>
+                                    <h2>The Flight Paths within US Airlines</h2>
+                                    <p>Visualization of US airline network using edge bundling</p>
+                                    <div id = "plot"></div>
+                                    <form action="/action_page.php">
+                                      <label for="year">Choose a year:</label>
+                                      <select id="year" name="year">
+                                        <option value="2019">March 2019</option>
+                                        <option value="2020">March 2020</option>
+                                      </select>
+                                    </form>
+                                     
+                                    <!-- must be 960x600 to match topojson us atlas files -->
+                                    <svg width="960" height="600">
+                                      <!-- must be in this order for drawing -->
+                                      <g id="basemap"></g>
+                                      <g id="flights"></g>
+                                      <g id="airports"></g>
+                                      <g id="voronoi"></g>
+                                      <text id="tooltip" style="display: none;"></text>
+                                    </svg>
                                 </div>
                             </div>
->>>>>>> refs/remotes/origin/master
                         </div>
                     </div>
                 </div>
@@ -97,11 +111,10 @@
                 <div class="bubble-d3 col-lg-12"></div>
                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-12 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Bubble Chart</h4>
-                                    <p class="mb-0 text-white-50">Append bubble chart to div class ".bubble-d3"</p>
+                        <div >
+                            <div >
+                                <div >
+                                    <div id="map" ></div>
                                 </div>
                             </div>
                         </div>
@@ -110,22 +123,90 @@
                 <!-- Project Two Row -->
                 <div class="heatmap-d3"></div>
                 <div class="row justify-content-center no-gutters">
-<<<<<<< HEAD
-                    <div class="col-lg-6"><img class="img-fluid" src="static/img/bubble_map.jpg" alt="" href = "/bubbleChart"/></div>
-                    <div class="col-lg-6 order-lg-first">
-=======
                     <div class="col-lg-12 order-lg-first">
->>>>>>> refs/remotes/origin/master
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Calendar Heatmap</h4>
-                                    <p class="mb-0 text-white-50">Append heatmap to div class ".heatmap-d3"</p>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-2">
+                      <div class="well">
+                        <h5><strong>COVID-19 Effect:</strong></h5>
+                        <select id="d3-dropdown" onchange="optionCovChanged(this.value)">
+                          <option value=2019 selected="selected">March 2019</option>
+                          <option value=2020>March 2020</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-5">
+                      <h5><strong>Departure Airport:</strong></h5>
+                      <select id="selDeparture" onchange="optionDeChanged(this.value)">
+                      </select>
+                    </div>
+                    <div class="col-md-5">
+                      <h5><strong>Arrival Airport:</strong></h5>
+                      <select id="selArrival" onchange="optionArChanged(this.value)"></select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <div id="flight_text"></div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="text-notes">
+                        <h5>Airline Quantity</h5>
+                      </div>
+                      <div class="main-text">
+                        <div id="di_text"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="text-notes">
+                        <h5>Average Departure Delay</h5>
+                      </div>
+                      <div class="main-text">
+                        <div id="aad_text"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="text-notes">
+                        <h5>Average Arrival Delay</h5>
+                      </div>
+                      <div class="main-text">
+                        <div id="pd_text"></div>
+                      </div>
+            
+                    </div>
+                    <div class="col-md-2">
+                      <div class="text-notes">
+                        <h5>Cancellation Rate</h5>
+                      </div>
+                      <div class="main-text">
+                        <div id="cr_text"></div>
+                      </div>
+            
+                      <br>
+                    </div>
+                  </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                      <div id="bar"></div>
+                    </div>
+                    <div class="col-md-4">
+                      <div id="pie"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div id="line"></div>
+                    </div>
+                  </div>
             </div>
         </section>
         <!-- Data -->
@@ -189,6 +270,43 @@
                 </div>
             </div>
         </section>
+
+        <!--JS function for including the separate HTML pages of the Flask app-->
+        <script>
+            function includeHTML() {
+              var z, i, elmnt, file, xhttp;
+              /* Loop through a collection of all HTML elements: */
+              z = document.getElementsByTagName("*");
+              for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                  /* Make an HTTP request using the attribute value as the file name: */
+                  xhttp = new XMLHttpRequest();
+                  xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4) {
+                      if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                      if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                      /* Remove the attribute, and call this function once more: */
+                      elmnt.removeAttribute("w3-include-html");
+                      includeHTML();
+                    }
+                  }
+                  xhttp.open("GET", file, true);
+                  xhttp.send();
+                  /* Exit the function: */
+                  return;
+                }
+              }
+            }
+        </script>
+
+        <!--Calling said function-->
+        <script>
+            includeHTML();
+        </script>
+
         <!-- Footer -->
         <footer class="footer bg-black small text-center text-white-50">
             <div class="container">Image sources: </br>
@@ -198,16 +316,34 @@
             </div>
         </footer>
         <!-- D3 -->
-        <script src="https://d3js.org/d3.v5.min.js"></script>
-        <script type="text/javascript" src="static/js/placeholder1.js"></script>
+       
+
+        <!-- <script type="text/javascript" src="static/js/placeholder1.js"></script>
         <script type="text/javascript" src="static/js/placeholder2.js"></script>
-        <script type="text/javascript" src="static/js/placeholder3.js"></script>
+        <script type="text/javascript" src="static/js/placeholder3.js"></script> -->
         <!-- Bootstrap core JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS -->
-        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+       
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/barChart.js') }}"></script>
+
+ <!-- Core theme JS -->
+ <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+ <script type="text/javascript" src="{{ url_for('static', filename='js/config.js') }}"></script>
+ <script type="text/javascript" src="{{ url_for('static', filename='js/bubbleChart.js') }}"></script>
+ <script src="{{ url_for('static', filename='js/flight.js') }}"></script>
     </body>
 </html>

@@ -1,10 +1,10 @@
-const urls = {
+const burls = {
     flight_2019_url : "/bubbleData_v1",
     flight_2020_url : "/bubbleData_v2"
 };
 
 
-d3.json(urls.flight_2019_url, function(flightData) {
+d3.json(burls.flight_2019_url).then(flightData => {
 
     var airportMarkers_2019 = []
 
@@ -66,11 +66,11 @@ function createMap(airportMarkers_2019){
   
     var myMap = L.map("map", {
         center: [38.79, -97.65],
-        zoom: 4.5,
+        zoom: 4,
         layers: [darkmap, airports_2019]
     });
     
-    d3.json(urls.flight_2020_url, function(flightData) {
+    d3.json(burls.flight_2020_url).then(flightData => {
     
         for (var i = 0; i < flightData.length; i++){
             coordinates = [flightData[i].latitude, flightData[i].longitude]
