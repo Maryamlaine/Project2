@@ -22,12 +22,12 @@ Our dashboard was modified from the following template: https://startbootstrap.c
 ​
 # Visualizations
 ​
-Each include the ability to switch between March 2019 and March 2020
+Each include the ability to switch between March 2019 and March 2020 <br/>
 Plot 1: Map of the U.S. with an edge bundling layer that shows airline flight routes, with thicker edges corresponding to longer delays.
 ​
-Plot 2: Another U.S. map. Here, Leaflet is used to represent delays with a bubble chart that corresponds to both an airport's size (circle radius) and delay density (color).
+Plot 2: Another U.S. map. Here, Leaflet is used to represent delays with a bubble chart that corresponds to both an airport's size (circle radius) and delay density (color). <br/>
 ​
-Plot 3: A sub-dashboard that provides increased granularity by examining routes between selected airports.
+Plot 3: A sub-dashboard that provides increased granularity by examining routes between selected airports. <br/>
 Details include a barchart showing flight delays by airline, number of airlines per flight route, average time of delays (both arrival and departure), cancellation rates, and the reason for delays. 
 
-You can click [here!] (https://flight-delay-2020.herokuapp.com/) to deploy the Heroku app.
+You can click [here] (https://flight-delay-2020.herokuapp.com/) to deploy the Heroku app.
