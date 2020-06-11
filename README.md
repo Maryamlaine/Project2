@@ -2,7 +2,7 @@
 ​
 By Qixuan Wang, Maryam Tabatabaei, Karly Ringstad and John Jostes
 ​
-# Our challenge for Project 2 was to create a full stack application with an assigned group of 4.
+Our challenge for Project 2 was to create a full stack application with an assigned group of 4.
 The application we created utilizes:
 * A postgreSQL database from AWS
 * Python for ETL 
