@@ -18,16 +18,17 @@ This was chosen to see what impact COVID-19 may have had compared to the previou
 ​
 # Web Page
 ​
-  Our dashboard was modified from the following template: https://startbootstrap.com/themes/grayscale/  (MIT License)
+  Our dashboard was modified from the following template. Click [here](https://startbootstrap.com/themes/grayscale/)  (MIT License)
 ​
 # Visualizations
 ​
-### Each graph include the ability to switch between March 2019 and March 2020 <p>
+Each graph include the ability to switch between March 2019 and March 2020. <p>
 * Plot 1: Map of the U.S. with an edge bundling layer that shows airline flight routes, with thicker edges corresponding to longer delays.
 ​
 * Plot 2: Another U.S. map. Here, Leaflet is used to represent delays with a bubble chart that corresponds to both an airport's size (circle radius) and delay density (color). <br/>
 ​
 * Plot 3: A sub-dashboard that provides increased granularity by examining routes between selected airports. <br/>
 Details include a barchart showing flight delays by airline, number of airlines per flight route, average time of delays (both arrival and departure), cancellation rates, and the reason for delays. 
+  
+Click [here](https://flight-delay-2020.herokuapp.com/) to Deploy the Heroku app.
 
-You can click [here] (https://flight-delay-2020.herokuapp.com/) to deploy the Heroku app.
