@@ -1,6 +1,6 @@
 # Project2 Airline Delay
 ​
-By Qixuan Wang, Maryam Tabatabaei, Karly Ringstad and John Jostes 6/11/2020
+By Qixuan Wang, Maryam Tabatabaei, Karly Ringstad and John Jostes 6/11/2020 <br/>
 ​
 Our challenge for Project 2 was to create a full stack application with an assigned group of 4.
 The application we created utilizes:
