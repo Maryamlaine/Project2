@@ -7,7 +7,7 @@ The application we created utilizes:
 * A postgreSQL database from AWS
 * Python for ETL 
 * FLASK API to render data from the database to the front-end application
-* HTML/JS/CSS using D3.js, plotly.js and leaflet.js for the webpage and visualizations
+* HTML/JS/CSS using D3.js, d3.delaunay, d3.geo-voronoi, plotly.js and leaflet.js for the webpage and visualizations
 * Heroku cloud platform to deploy our app <p>
 ​
 ​# Project description:
