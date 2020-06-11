@@ -1,5 +1,4 @@
 # Project2 Airline Delay
- 6/11/2020
 ​
 By Qixuan Wang, Maryam Tabatabaei, Karly Ringstad and John Jostes
 ​
@@ -31,4 +30,4 @@ Plot 2: Another U.S. map. Here, Leaflet is used to represent delays with a bubbl
 Plot 3: A sub-dashboard that provides increased granularity by examining routes between selected airports.
 Details include a barchart showing flight delays by airline, number of airlines per flight route, average time of delays (both arrival and departure), cancellation rates, and the reason for delays. 
 
-You can click [here!] (https://flight-delay-2020.herokuapp.com/)to deploy the Heroku app.
+You can click [here!] (https://flight-delay-2020.herokuapp.com/) to deploy the Heroku app.
