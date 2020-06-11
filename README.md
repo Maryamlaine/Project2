@@ -8,9 +8,9 @@ The application we created utilizes:
 * Python for ETL 
 * FLASK API to render data from the database to the front-end application
 * HTML/JS/CSS using D3.js, plotly.js and leaflet.js for the webpage and visualizations
-* Heroku cloud platform to deploy our app
+* Heroku cloud platform to deploy our app <p>
 ​
-​# Project description:<br/>
+​# Project description:
   For this project, we looked at flight delays for airports in the United States during March 2019 and March 2020. 
 This was chosen to see what impact COVID-19 may have had compared to the previous year.
 ​
