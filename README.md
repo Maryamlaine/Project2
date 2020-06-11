@@ -22,7 +22,7 @@ Our dashboard was modified from the following template: https://startbootstrap.c
 ​
 # Visualizations
 ​
-Each include the ability to switch between March 2019 and March 2020 <br/>
+Each include the ability to switch between March 2019 and March 2020 <p>
 Plot 1: Map of the U.S. with an edge bundling layer that shows airline flight routes, with thicker edges corresponding to longer delays.
 ​
 Plot 2: Another U.S. map. Here, Leaflet is used to represent delays with a bubble chart that corresponds to both an airport's size (circle radius) and delay density (color). <br/>
