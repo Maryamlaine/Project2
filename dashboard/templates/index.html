@@ -55,16 +55,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Project Details: SUBJECT TO CHANGE!</h2>
+                        <h2 class="text-white mb-4">Project Details</h2>
                         <p class="text-white-50">
-                            Our goal was to create a dashboard of three data visualizations on airline flight delays across the United States.
-                            First, we wrangled data from both <a href="https://www.kaggle.com/usdot/flight-delays">kaggle.com</a> and 
-                            <a href="https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236">the Bureau of Transportation Statistics</a>.
-                            With this data, we visualized flight routes for each airline using a Voronoi Arc Map package for D3. 
-                        </br></br>
-                            Next, we plotted a <a href="https://observablehq.com/@d3/calendar-view">Calendar Heatmap</a> in order to show which 
-                            days of the month saw the highest number of delays throughout the year.
-                            ### For our last plot: arrival vs. departure delays & Bubble Chart ### What to add here?
+                          For this project, we looked at flight delays for airports in the United States during March 
+                          2019 and March 2020. This was chosen to see what impact COVID-19 may have had compared to the previous year.  </br></br>
+                          We utilized data from the Bureau of Transportation Statistics, which were uploaded to 
+                          a postgresSQL database hosted by AWS.
+                          For our backend, we used Python for ETL, and for the frontend developed a Flask app, utilizing HTML, CSS, 
+                          JavaScript, and the following JS libraries: D3, Plotly, & Leaflet. This was then deployed on the Heroku cloud platform.
                         </p>
                     </div>
                 </div>
@@ -83,7 +81,7 @@
                             <div >
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h2>The Flight Paths within US Airlines</h2>
-                                    <p>Visualization of US airline network using edge bundling</p>
+                                    <p> This plot uses edge bundling to show airline flight routes, with thicker edges corresponding to longer delays.</p>
                                     <div id = "plot"></div>
                                     <form action="/action_page.php">
                                       <label for="year">Choose a year:</label>
@@ -111,23 +109,14 @@
                 <div class="bubble-d3 col-lg-12"></div>
                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-12 order-lg-first">
+                      <h4>Bubble Chart</h4>
+                            <p class="text-black-50 mb-0">
+                                Here, Leaflet is used to represent delays with a bubble chart that corresponds to both an airport's size (circle radius) and delay density (color). <a href="">Examine for yourself</a>
+                            </p>
                         <div >
                             <div >
                                 <div >
                                     <div id="map" ></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Two Row -->
-                <div class="heatmap-d3"></div>
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-12 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    
                                 </div>
                             </div>
                         </div>
@@ -217,7 +206,8 @@
                         <h2 class="text-white mb-5">Data</h2>
                         <div class="card py-4">
                             <p class="text-black-50">
-                                Possible place to include data? 
+                              The Bureau of Transportation Statistics provides a <a href="https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236">database</a> 
+                              from which one can filter for specific information. Due to the size of the tables, ours are not included within this dashboard.
                             </p>
                         </div>
                     </div>
@@ -269,43 +259,7 @@
                     <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
                 </div>
             </div>
-        </section>
-
-        <!--JS function for including the separate HTML pages of the Flask app-->
-        <script>
-            function includeHTML() {
-              var z, i, elmnt, file, xhttp;
-              /* Loop through a collection of all HTML elements: */
-              z = document.getElementsByTagName("*");
-              for (i = 0; i < z.length; i++) {
-                elmnt = z[i];
-                /*search for elements with a certain atrribute:*/
-                file = elmnt.getAttribute("w3-include-html");
-                if (file) {
-                  /* Make an HTTP request using the attribute value as the file name: */
-                  xhttp = new XMLHttpRequest();
-                  xhttp.onreadystatechange = function() {
-                    if (this.readyState == 4) {
-                      if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                      if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-                      /* Remove the attribute, and call this function once more: */
-                      elmnt.removeAttribute("w3-include-html");
-                      includeHTML();
-                    }
-                  }
-                  xhttp.open("GET", file, true);
-                  xhttp.send();
-                  /* Exit the function: */
-                  return;
-                }
-              }
-            }
-        </script>
-
-        <!--Calling said function-->
-        <script>
-            includeHTML();
-        </script>
+        </section>      
 
         <!-- Footer -->
         <footer class="footer bg-black small text-center text-white-50">
@@ -315,12 +269,9 @@
                 "Stuttgart Airport Terminal 1.jpg" from Wikimedia Commons by CatalpaSpirit, CC-BY 4.0
             </div>
         </footer>
-        <!-- D3 -->
+   
        
 
-        <!-- <script type="text/javascript" src="static/js/placeholder1.js"></script>
-        <script type="text/javascript" src="static/js/placeholder2.js"></script>
-        <script type="text/javascript" src="static/js/placeholder3.js"></script> -->
         <!-- Bootstrap core JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
@@ -332,7 +283,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-
+     <!-- D3 -->
 <script src="https://d3js.org/d3.v5.min.js"></script>
 
   <!-- Leaflet JavaScript -->
