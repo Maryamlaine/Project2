@@ -45,7 +45,7 @@
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Airport Delays</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Data vizualization for Project 2</h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Data Visualization for Project 2</h2>
                     <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                           We utilized data from the Bureau of Transportation Statistics, which were uploaded to 
                           a postgresSQL database hosted by AWS.
                           For our backend, we used Python for ETL, and for the frontend developed a Flask app, utilizing HTML, CSS, 
-                          JavaScript, and the following JS libraries: D3, Plotly, & Leaflet. This was then deployed on the Heroku cloud platform.
+                          JavaScript, and the following JS libraries: D3 (delaunay,geo-voronoi ), Plotly, & Leaflet. This was then deployed on the Heroku cloud platform.
                         </p>
                     </div>
                 </div>
@@ -74,7 +74,6 @@
         <section class="projects-section bg-light" id="projects">
             <div class="container">
                 <!-- Flight Route Row -->
-                <!-- <div w3-include-html="bubbleChart"></div> -->
                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-12 order-lg-first">
                         <div >
@@ -111,7 +110,8 @@
                     <div class="col-lg-12 order-lg-first">
                       <h4>Bubble Chart</h4>
                             <p class="text-black-50 mb-0">
-                                Here, Leaflet is used to represent delays with a bubble chart that corresponds to both an airport's size (circle radius) and delay density (color). <a href="">Examine for yourself</a>
+                                Here, Leaflet is used to represent delays with a bubble chart that corresponds to both delay time (circle radius) and delay density (color). 
+                                The circle is used to compare the delay before and after Covid-19.
                             </p>
                         <div >
                             <div >
