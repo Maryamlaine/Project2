@@ -18,6 +18,9 @@ This was chosen to see what impact COVID-19 may have had compared to the previou
 
 
 ​
+# ERD
+  ![SQL_Schema.sql](SQL_ERD.png)
+  
 # Web Page
 ​
   Our dashboard was modified from the following template. Click [here](https://startbootstrap.com/themes/grayscale/)  (MIT License)
