@@ -10,7 +10,7 @@ The application we created utilizes:
 * HTML/JS/CSS using D3.js, d3.delaunay, d3.geo-voronoi, plotly.js and leaflet.js for the webpage and visualizations
 * Heroku cloud platform to deploy our app <p>
 ​
-​# Project description:
+# Project description:
   For this project, we looked at flight delays for airports in the United States during March 2019 and March 2020. 
 This was chosen to see what impact COVID-19 may have had compared to the previous year.
 ​
