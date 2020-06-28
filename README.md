@@ -1,4 +1,4 @@
-# Project2 Airline Delay
+# Flight Delays and Cancellations
 ​
 By Qixuan Wang, Maryam Tabatabaei, Karly Ringstad and John Jostes 6/11/2020 <p>
 ​
